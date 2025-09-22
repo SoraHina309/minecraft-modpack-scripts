@@ -1,0 +1,46 @@
+{
+  "id": "teca_status_update",
+  "title": "TECA任务中心",
+  "description": "相位仪发送的TECA科研任务提示",
+  "start": "t1",
+  "entries": [
+    {
+      "id": "t1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.entry.1" },
+      "portraits": [],
+
+      "next":  "t2"
+    },
+    {
+      "id": "t2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.entry.2" },
+      "next": "t3"
+    },
+    {
+      "id": "t3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.entry.3" },
+      "next": "t4"
+    },
+    {
+      "id": "t4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.entry.4" },
+      "next": "t5"
+    },
+    {
+      "id": "t5",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.entry.5" },
+      "next": "t6"
+    },
+    {
+      "id": "t6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.entry.6" },
+      "endDialog": true
+    }
+  ]
+}

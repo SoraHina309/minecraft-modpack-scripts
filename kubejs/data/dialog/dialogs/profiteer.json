@@ -1,0 +1,49 @@
+{
+  "id": "profiteer",
+  "title": "可疑商人",
+  "description": "跟可疑商人的对话",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": { "translate": "dialog.profiteer.speaker.unknown", "italic": true },
+      "text": { "translate": "dialog.profiteer.entry.start" },
+      "portraits": [],
+
+      "options": [
+        {
+          "text": { "translate": "dialog.profiteer.option.hello1" },
+          "target": "intro_1"
+        },
+        {
+          "text": { "translate": "dialog.profiteer.option.hello2" },
+          "target": "intro_1"
+        }
+      ]
+    },
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.profiteer.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.profiteer.entry.1.dialog" }
+      ],
+      "next": "intro_2"
+    },
+    {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.profiteer.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.profiteer.entry.2.dialog" }
+      ],
+      "next": "intro_3"
+    },
+    {
+      "id": "intro_3",
+      "speaker": { "translate": "dialog.profiteer.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.profiteer.entry.3.dialog" }
+      ],
+      "endDialog": true
+        }
+  ]
+}

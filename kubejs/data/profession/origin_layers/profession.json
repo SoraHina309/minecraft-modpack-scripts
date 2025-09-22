@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "origins": [
+    "profession:firefighter",
+        "profession:survivalist",
+        "profession:researcher",
+                "profession:security_guard",
+        "profession:clown"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "agirt_barako1",
+  "title": "AGIRT调查任务·乌姆纳塔文化",
+  "description": "AGIRT逗乐酋长奖励阶段",
+  "start": "intro_1",
+  "entries": [
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.barako1.1" }
+      ],
+   "portraits": [],
+      "next": "intro_2"
+    },
+    {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.barako1.2" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

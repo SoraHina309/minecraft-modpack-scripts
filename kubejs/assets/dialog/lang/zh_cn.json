@@ -1,0 +1,830 @@
+  {
+    //开场对话
+    //相位仪的话
+    "dialog.startup_intro.speaker.tips": "§b相位仪",
+    "dialog.speaker.eden": "§4环境音",
+    "dialog.startup_intro.entry.1.line": "系统自检中...自检完成。§4侦测到415411条未知错误！",
+    "dialog.startup_intro.entry.2.line": "其中有99%由未知干扰源导致，1%是未知报错。",
+    "dialog.startup_intro.entry.3.line": "幸运的是。本机除通信模块被干扰，其余功能仍保持正常。（序章结束前无法开启科技树）",
+    "dialog.startup_intro.entry.4.line": "现在回归正题——",
+    "dialog.startup_intro.entry.5.line": "新的世界，新的开始，如今身处异界，应当先了解这个世界的情况",
+    "dialog.startup_intro.entry.6.line": "你可以在任务面板的介绍页查看本整合包的特性介绍",
+    // 村民初次相遇
+    "dialog.villager_encounter.speaker.unknown": "§7？？？",
+    //玩家选项
+    "dialog.villager_encounter.option.hello1": "你...好？",
+    "dialog.villager_encounter.option.hello2": "halo？",
+    //玩家对话
+    "dialog.villager_encounter.entry.start": "（你正欲开口）",
+    //村民
+    "dialog.villager_encounter.entry.1.dialog": "哼？哼！哈！",
+    "dialog.villager_encounter.entry.1.note": "（晦涩难懂的语言）",
+    "dialog.villager_encounter.entry.2.dialog": "蛤？哼...哼！",
+    "dialog.villager_encounter.entry.2.note": "（警惕地打量着你 ）",
+    "dialog.villager_encounter.entry.3.dialog": "哈！......？哼...？",
+    "dialog.villager_encounter.entry.3.note": "（突然愣在原地）",
+    "dialog.villager_encounter.entry.4.dialog": "哈...哼......。",
+    "dialog.villager_encounter.entry.4.note": "（紧张地翻找自己的口袋）",
+    "dialog.villager_encounter.entry.5.dialog": "哼！（递给你一本破旧的小册子后便不再开口）",
+    //相位仪的话
+    "dialog.villager_encounter.entry.6.dialog": "无论如何，你总算获得了关于这个世界的情报",
+    "dialog.villager_encounter.entry.7.dialog": "但§b相位仪§r需要时间解析这本手册的内容",
+    "dialog.villager_encounter.entry.8.dialog": "在解析完成前，你可以探索周边区域，或者...适当收集点这帮大鼻子的§6垃圾§f",
+    // 相位仪就绪
+    //相位仪的话
+    "dialog.phase_translator_ready.entry.1": "语言解析已完成，现在你可以通过§b相位仪§f与当地居民正常交流了",
+    "dialog.phase_translator_ready.entry.2": "但我们仍需查明干扰源的真相",
+    "dialog.phase_translator_ready.entry.3": "唯有如此，才能重新建立与§c母世界§f的联结",
+    "dialog.phase_translator_ready.entry.4": "或许可以问问那些被您'借用'过物品的§6村民§f们？",
+    // 村民二次对话
+    "dialog.villager_exchange.speaker.unknown": "村民",
+    //玩家对话
+    "dialog.villager_exchange.entry.start": "翻译模块已激活",
+    //玩家选项
+    "dialog.villager_exchange.option.hello1": "你好，能问些事情吗？",
+    "dialog.villager_exchange.option.hello2": "这位村民先生，打扰了",
+    //村民
+    "dialog.villager_exchange.entry.1.dialog": "人类？真是稀客啊",
+    "dialog.villager_exchange.entry.2.dialog": "有什么想问的？",
+    //玩家选项
+    "dialog.villager_exchange.option.hello3": "听说村里有个古怪的商人？",
+    "dialog.villager_exchange.option.hello4": "你认识那个总在钟旁边晃悠的家伙吗？",
+    //村民
+    "dialog.villager_exchange.entry.3.dialog": "哦，那个穿蓝袍的怪人？",
+    "dialog.villager_exchange.entry.4.dialog": "他确实有些稀罕货——虽然大多是别人不要的破烂",
+    "dialog.villager_exchange.entry.5.dialog": "但这家伙有个怪癖：只和长时间注视钟的人交易",
+    "dialog.villager_exchange.entry.6.dialog": "否则他就会一直躲在某个阴暗角落里",
+    //相位仪的话
+    "dialog.villager_exchange.entry.7.dialog": "看来那位蓝袍商人对§e钟§f情有独钟。不过大鼻子们有些怪癖倒也正常",
+    // 奸商对话
+    "dialog.profiteer.speaker.unknown": "§5可疑商人",
+    "dialog.profiteer.entry.start": "是哪位贵客要交易啊？",
+    //玩家选项
+    "dialog.profiteer.option.hello1": "你就是那位旅行商人？",
+    "dialog.profiteer.option.hello2": "听说你这里有特殊商品",
+    // 奸商对话
+    "dialog.profiteer.entry.1.dialog": "啊哈，您就是村里新来的人类客人吧",
+    "dialog.profiteer.entry.2.dialog": "想看§6商品清单§r？先展示您的诚意",
+    "dialog.profiteer.entry.3.dialog": "只要§a一块完整的绿宝石§r就好",
+    // 敌袭事件
+    // 奸商对话
+    "dialog.predator.entry.start": "怎么样？有看中的宝贝吗？",
+    //玩家选项
+    "dialog.predator.option.hello1": "这都是些什么破烂",
+    "dialog.predator.option.hello2": "§3回响之地§f听起来很有趣",
+    // 奸商对话
+    "dialog.predator.entry.1.dialog": "嘿！这些可都是偏远之地的珍稀特产！",
+    "dialog.predator.entry.2.dialog": "客人您的品味可真够独特的",
+    "dialog.predator.entry.3.dialog": "§3回响之地§f不过是处回声特别强的...啊！",
+    "dialog.predator.entry.4.dialog": "袭击！卫兵！铁傀儡在哪？！",
+    //回响碎片
+    //相位仪的话
+    "dialog.hero.entry.start": "漂亮的胜利!不过...虽然击退袭击着实不易",
+    "dialog.hero.entry.1.dialog": "但我们急需查明§3干扰源§f相关的情报",
+    //玩家选项
+    "dialog.hero.option.hello1": "我想要先休息休息",
+    "dialog.hero.option.hello2": "你说得对，搞清楚干扰源要紧",
+    //相位仪的话
+    "dialog.hero.entry.2.dialog": "适当休息是好事，不过您需要§c母世界§f的帮助才可在异界立足。",
+    "dialog.hero.entry.3.dialog": "那我们尽量快点开始吧，在没有§c母世界§f的帮助下发展科技着实不易",
+    //村民
+    "dialog.hero.entry.4.dialog": "人类！非常感谢你打败了那群该死的掠夺者。",
+    "dialog.hero.entry.5.dialog": "请您一定要收下这个",
+    //终结干扰
+    //相位仪的话
+    "dialog.resonance.entry.start": "似...乎...就是...这里...",
+    "dialog.resonance.entry.1.dialog": "干扰源...应该...是这个§3墨绿色晶体§f...",
+    "dialog.resonance.option.hello1": "找到干扰源了",
+    "dialog.resonance.option.hello2": "接下来怎么做？",
+    "dialog.resonance.entry.2.dialog": "用...§b相位仪§f...扫描晶体...就能...屏蔽干扰...",
+    "dialog.resonance.entry.3.dialog": "很...简单...用§b相位仪§f...对准§3晶体§f...本机...就能阻断...信号...",
+    "dialog.resonance.entry.4.dialog": "扫描完成...干扰已屏蔽...",
+    "dialog.resonance.entry.5.dialog": "正在连接...§c母世界§f...",
+    //玩家选项
+    "dialog.resonance.option.hello3": "我是GSA实验室事故幸存者，请求总部回应",
+    "dialog.resonance.option.hello4": "GSA干员0-7123呼叫总部",
+    //AGI联络员
+    "dialog.resonance.speaker.unknown": "§bGSA联络员",
+    "dialog.resonance.entry.6.dialog": "这里是GSA异常响应中心...正在验证你的身份...请保持通讯...",
+    //相位仪的话
+    "dialog.resonance.entry.7.dialog": "（通讯干扰杂音）",
+    "dialog.resonance.entry.8.dialog": "§c母世界§f那帮官僚又要开会讨论了，趁现在好好休息吧",
+    //序章结束
+    //相位仪的话
+    "dialog.faction.entry.1": "终于……§c母世界§f传来了回应。",
+    "dialog.faction.entry.2": "GSA正式授予我们§6异界开拓者§f的称号",
+    "dialog.faction.entry.3": "尽管§c母世界§f现在开放了数据库（可以解锁科技了）",
+    "dialog.faction.entry.4": "但建议选择加入某个部门以获得更多支持。目前有两个选择：",
+    "dialog.faction.entry.5": "§bGSA科研部§f - 我们的老东家，专注§d异界科技§f研究，能快速建立工业体系，后期可获得尖端技术强化",
+    "dialog.faction.entry.6": "§bGSA异常响应中心f -，提供军火支持，专精§d超自然力量§f与§d超凡生物§f研究，可制造超凡装备",
+    "dialog.faction.entry.7": "§7（在任务面板确认选择，这将决定发展路线：科技or冒险）",
+    "dialog.faction.entry.8": "§4.--. .- .-. .- -.. .. ... .",
+    "dialog.faction.entry.9": "§m-未-知-讯-号-",
+    "dialog.faction.entry.10": "§c协奏者以贪婪侵蚀旧界 吾许你于新世再造乐园",
+    "dialog.faction.entry.11": "§c§l乐园-?",
+    //GSA任务开启
+    //相位仪的话
+    "dialog.teca.entry.1": "§bGSA§f任务界面已开放。",
+    "dialog.teca.entry.2": "科研任务：§7目前暂无",
+    "dialog.teca.entry.3": "科技增援等级：§a文艺复兴",
+    "dialog.teca.entry.4": "科研经费补贴：§6基础",
+    "dialog.teca.entry.5": "你的基础科研补贴已到账：§648x 蒸汽科研点§f。",
+    //相位仪的话
+    "dialog.teca.entry.6": "§e提示§f：对于构造相对简单的机械，你可以将鼠标移到对应物品上按住§aw§f以§a思索§f，获取更多提示信息。",
+    //GSA安山合金任务
+    //GSA调度员
+    "dialog.teca_research.speaker.dispatcher": "§bGSA科研部长",
+    "dialog.teca_research.entry.1": "§6开拓者！§f你成功地发现了一种新的材料。",
+    "dialog.teca_research.entry.2": "该材料无论是抗压还是抗磨能力都远超传统材料。",
+    "dialog.teca_research.entry.3": "非常适合用于§e坩埚§f和§e轴承§f，不过虽然干得漂亮……",
+    "dialog.teca_research.entry.4": "但§bGSA§f仍然需要更多关于这些“§7安山岩§f”样本的详细数据。\n收集足够样本后可获得更多§a研究补贴§f。",
+    "dialog.teca_research.entry.5": "虽然你们的研究仍处于起步阶段，但你们的贡献，全人类不会忘记。",
+    //相位仪的话
+    "dialog.teca_research.entry.6": "我们的老东家§bGSA§f还是一如既往的会画大饼。",
+    //GSA安山合金任务奖励
+    //GSA调度员
+    "dialog.teca_reward.entry.1": "干得漂亮！§bGSA§f和全人类不会忘记你的贡献。",
+    "dialog.teca_reward.entry.2": "这是你们的§632x蒸汽研究点§f奖励。",
+    "dialog.teca_reward.entry.3": "果然，给的还挺§8扣扣索索§f的……",
+    //相位仪的话
+    "dialog.teca_reward.entry.4": "不过这个阶段确实都是轻松的活，虽然刚刚开始确实有点累。",
+    "dialog.teca_reward.entry.5": "但话又说回来，哪怕不加入§bGSA§f，刚开始发展也得这么干。",
+    //GSA蒸汽时代
+    //相位仪的话
+    "dialog.teca.steam.1": "§bGSA§f蒸汽时代任务已开启。",
+    "dialog.teca.steam.2": "科研任务：§6高效燃烧器",
+    "dialog.teca.steam.3": "科技增援等级：§e蒸汽时代",
+    "dialog.teca.steam.4": "科研经费补贴：§6基础",
+    "dialog.teca.steam.5": "在这个阶段，§bGSA§f给我们的任务是§d寻找高效燃烧炉§f。",
+    "dialog.teca.steam.6": "也许你可以研究研究那些名为§6烈焰人§f的生物？",
+    //GSA烈焰人笼子任务
+    //GSA调度员
+    "dialog.blazeburner.entry.1": "干得漂亮，你们发现了一种清洁的§e生物能源§f。",
+    "dialog.blazeburner.entry.2": "……但是很明显，这并不太符合§c动物伦理§f。",
+    "dialog.blazeburner.entry.3": "虽然§6烈焰人§f这种等离子体生命算不算动物还存疑……",
+    "dialog.blazeburner.entry.4": "但这肯定会让任何伦理委员会吵得不可开交。",
+    "dialog.blazeburner.entry.5": "因此，该技术不会用于§c母世界§f的科技进步。",
+    "dialog.blazeburner.entry.6": "不过你们能想到这一点着实不易，继续深入研究会有奖励的。",
+    "dialog.blazeburner.entry.7": "就当是作为§7技术储备§f吧。",
+    //相位仪的话
+    "dialog.blazeburner.entry.8": "很明显这确实不太§6烈焰人道§f……不过§bGSA§f可没禁止我们在这边用烈焰人燃烧室。",
+    //GSA烈焰人笼子任务奖励
+    //GSA调度员
+    "dialog.ethics_reward.entry.1": "干得漂亮！§bGSA§f不会忘记你的贡献。",
+    "dialog.ethics_reward.entry.2": "这是你们的§632x蒸汽研究点§f奖励。\n但因为§c伦理上的问题§f，即使这是重大发现，§bGSA§f也不能给太多。",
+    //相位仪的话
+    "dialog.ethics_reward.entry.3": "§bGSA§f的借口还是这么冠冕堂皇。",
+    "dialog.ethics_reward.entry.4": "但他们可还是§7没禁止§f我们在这边用烈焰人燃烧室呢 :-)",
+    //GSA电气时代
+    //相位仪的话
+    "dialog.teca.electric.1": "§bGSA§f电气时代任务已开启。",
+    "dialog.teca.electric.2": "科研任务：§3化石燃料与特种钢研究",
+    "dialog.teca.electric.3": "科技增援等级：§b电气时代",
+    "dialog.teca.electric.4": "科研经费补贴：§b高级",
+    "dialog.teca.electric.5": "机械构造越来越复杂，§bGSA§f给你的蓝图已经看不太懂了。",
+    "dialog.teca.electric.6": "但幸运的是，你收到了一本§bGSA§f发给你的说明书。",
+    "dialog.teca.electric.7": "不过这本书好像只需要§7拉杆§f加§7书§f就能合成……真是莫名其妙。",
+    //GSA黑钢任务
+    //GSA调度员
+    "dialog.blacksteel.entry.1": "干得漂亮§6开拓者§f，你们成功用§e电弧炉§f复现了在异界已经失传的§c黑钢冶炼§f工艺。",
+    "dialog.blacksteel.entry.2": "§bGSA§f需要更多样品用于深入研究，以服务§c母世界§f建设。",
+    "dialog.blacksteel.entry.3": "作为报酬，我们将发放§b72x电气科研点§f补贴，并赠送由其中50%样品加工的§b高强度零件§f。",
+    //相位仪的话
+    "dialog.blacksteel.entry.4": "这回§bGSA§f倒是挺慷慨的……不过他们还是§8吞了一半我们的材料§f。",
+    //GSA黑钢任务奖励
+
+  //GSA调度员
+  "dialog.phasedrill.entry.1": "干得漂亮！§bGSA§f不会忘记你们的贡献。这是你们应得的§b72x电气研究点§f和高强度零件奖励。",
+  "dialog.phasedrill.entry.2": "根据总部§70-27541号决议§f，现授权向你们开放§e相位钻机项目§f的§cLevel 4§f权限。",
+  "dialog.phasedrill.entry.3": "你们提供的冶炼黑钢的技术，是§e相位钻机§f核心部件的制造基础。感谢你们的付出，让回家成为可能。",
+  "dialog.phasedrill.entry.4": "§e相位钻机§f旨在于§c主世界§f边界凿出一个稳定的空间裂口，尺寸约为§a80x80米§f。这是我们为所有流落异界的同胞准备的‘疏散计划’。",
+  "dialog.phasedrill.entry.5": "如果计划成功，它将成为通往新家园的生命之路。",
+  
+  //相位仪的话
+  "dialog.phasedrill.entry.6": "计划很宏伟……但§c主世界的压力§f越来越大，我真担心§bGSA§f还能为这个‘疏散计划’投入多少资源。",
+  "dialog.phasedrill.entry.7": "我们必须加快进度……我收到风声，指挥部那边的‘最终解决方案’派系声音越来越大了。",
+  
+  //GSA原子能时代
+  //相位仪的话
+  "dialog.teca.atomic.1": "§bGSA§f总部下达了‘原子能时代’紧急指令。",
+  "dialog.teca.atomic.2": "科研任务：§d先进生产方式§f（最高优先级）",
+  "dialog.teca.atomic.3": "军事增援等级：§7已无法提供增援§f",
+  "dialog.teca.atomic.4": "科研经费补贴：§d终极§f（这是总部能给出的最后支持）",
+  "dialog.teca.atomic.5": "§6原子能时代§f：§c主世界§f的防线正在崩溃，§5凋零风暴§f的侵袭已进入最后阶段。",
+  "dialog.teca.atomic.6": "§bGSA§f总部与我们的大部分常规联系已经中断……",
+  "dialog.teca.atomic.7": "但他们仍在竭尽全力，向我们发送了最后一批原型科技§3蓝图§f。",
+  "dialog.teca.atomic.8": "从现在起，我们真正要独立作战了。利用好这些§3蓝图§f，为了生存。",
+  
+  //GSA的终局
+  //GSA调度员
+  "dialog.teca_farewell.entry.1": "致§6开拓者§f……这里是GSA常响应中心。我们为过去一段时间资源调配的失衡致歉。",
+  "dialog.teca_farewell.entry.2": "这是最后一批§b研究点§f……愿它能帮助你们。",
+  "dialog.teca_farewell.entry.3": "此频道即将永久关闭。根据最终决议，GSA科研部所有剩余职能将由§bGSA异常响应指挥部§f接管，……祝你们好运……完毕。",
+  
+  //相位仪的话
+  "dialog.teca_farewell.entry.4": "……他们还是选择了那条路。但为了击败§4凋零风暴§f，我们必须接受这个现实，并做好我们该做的事。",
+  
+  //GSA线终局任务前置
+  "dialog.agirt.speaker.you": "player",
+  
+  //GSA异常响应中心(ART)联络员
+  "dialog.bombplan.entry.1": "（通讯干扰）异界开拓者，这里是GSA异常响应中心。确认你们已成功提取§d反物质样本§f。",
+  "dialog.bombplan.entry.2": "依据《跨维度危机最终法案》，我代表GSA指挥部，要求你们立即移交该§a战略物资§f。",
+  "dialog.bombplan.entry.3": "重复：§c主世界§f将以此制造§e反物质炸弹§f，这是目前唯一可能终结§5凋零风暴§f的手段。人类的命运在此一举。",
+  "dialog.bombplan.entry.4": "作为GSA的成员，请执行命令。为了§c文明的延续§f。O7",
+  
+  //玩家选项
+  "dialog.bombplan.option.a": "所以这就是‘最终解决方案’？",
+  "dialog.bombplan.option.b": "移交之后，这个维度会怎样？",
+  
+  //ART联络员
+  "dialog.bombplan.entry.6": "我们没有时间讨论！每延迟一秒，主世界就有更多人牺牲！",
+  
+  //玩家对话
+  "dialog.bombplan.option.c": "《异界开拓者权利法案》呢？GSA的初衷不是保护所有人吗？",
+  
+  //ART联络员
+  "dialog.bombplan.entry.7": "法案的前提是人类文明能够存续！执行命令，干员！",
+  
+  //玩家对话
+  "dialog.bombplan.option.d": "我们可以移交反物质，但要求共享§e反物质炸弹§f的所有技术蓝图。",
+  
+  //ART联络员
+  "dialog.bombplan.entry.8": "……你们这是在挑战指挥部的权威！",
+  
+  //玩家对话
+  "dialog.bombplan.entry.9": "听着！如果炸弹是唯一希望，那我们更不能把鸡蛋放在一个篮子里！如果主世界失败，这里必须是最后的备份方案！我们需要蓝图！",
+  
+  //ART联络员
+  "dialog.bombplan.entry.10": "……要求被部分批准。但若因此导致主世界计划失败，你们需承担一切责任。数据传输开始。",
+  
+  //相位仪的话
+  "dialog.bombplan.entry.11": "……他们被逼到了墙角，但我们不能把未来全押在他们的计划上。",
+  "dialog.bombplan.entry.12": "让我们准备好自己的‘B计划’，给那风暴来个§e惊喜§f。",
+  "dialog.bombplan.entry.13": "§d新任务§f：分析蓝图，准备我们自己的终极武器。",
+  
+  //GSA终极任务1
+  //相位仪的话
+  "dialog.teca_storm_warning.entry.1": "§c警报！§f侦测到维度异常波动，预计三天后遭遇§3凋零风暴§f。",
+  "dialog.teca_storm_warning.entry.2": "持续时间……无法预测。",
+  
+  //玩家选项
+  "dialog.teca_storm_warning.option.a": "ART的‘最终解决方案’启动了。",
+  "dialog.teca_storm_warning.option.b": "该做最后的准备了。",
+  
+  //相位仪的话
+  "dialog.teca_storm_warning.entry.3": "更糟的是，ART传输的炸弹蓝图§8缺少核心的能量聚焦模块§f。",
+  "dialog.teca_storm_warning.entry.4": "必须找到替代方案——§bGSA§f的早期数据提到，这个世界的§3远古文明§f曾成功伤害过§5凋零风暴§f。",
+  "dialog.teca_storm_warning.entry.5": "情报指出，秘密可能藏在§3远古城市§f的§3遗物§f中。请在风暴降临前，找到它！",
+  
+  //GSA终极任务1奖励
+  //相位仪的话
+  "dialog.ancient_bomb.entry.1": "漂亮！你成功收集到了这些§d远古典籍。",
+  "dialog.ancient_bomb.entry.2": "解析会立刻开始。",
+  "dialog.ancient_bomb.entry.3": "...................",
+  "dialog.ancient_bomb.entry.4": "解析完成。根据典籍记载，该世界的古代文明曾举族对抗过§5凋零风暴",
+  "dialog.ancient_bomb.entry.5": "但他们发现无论是哪种武器，对这头巨兽造成的伤害依然有限。",
+  "dialog.ancient_bomb.entry.6": "因此这些先行者们，选择攻击§5凋零风暴§f诞下的§5凋零共生体§f。",
+  "dialog.ancient_bomb.entry.7": "通过§5共生体§f死后凝聚出来的§e附魔书——§f能使武器真正对§5凋零风暴§f的核心造成伤害。",
+  "dialog.ancient_bomb.entry.8": "因此我们只需要在我们的炸弹上集成这种古老的附魔技术。",
+  "dialog.ancient_bomb.entry.9": "但这一切，必须等到那个庞然巨物现身才能实施。根据计算您还需要一件备用武器——不是用来击退，而是为了彻底终结§5凋零风暴§f。",
+    //永恒不在
+    //相位仪的话
+    "dialog.witherstorm.entry.1": "§c警告！伴生灾害已出现。侦测到异常反应，§5凋零风暴§c预计在10分钟后出现。",
+    "dialog.witherstorm.entry.2": "§c在进入安全模式。智能对话已关闭...",
+    "dialog.witherstorm.entry.3": "§5祂降下“凋零”的赐福 蝼蚁却以神骸铸剑——强者愈弱——而弱者愈强",
+    //假寐
+    //相位仪的话
+    "dialog.witherstorm_final.entry.1": "目标已进入假寐状态，建议立刻使用命令武器对其暴露核心发起攻击。",
+    "dialog.witherstorm_final.entry.2": "如目标苏醒，则赶快远离目标，并试图进入目标内部摧毁其核心。",
+    "dialog.witherstorm_final.entry.3": "目标在被炸弹轰炸过后，即使外壳成功自愈，也会再次开裂。而这是我们的最后机会。",
+    //GSA结局
+    //相位仪的话
+    "dialog.teca_finale_dialog.finale.1": "终于....我们成功了。我们成功杀死了§5凋零风暴§f..",
+    "dialog.teca_finale_dialog.finale.2": "但我们仍需要做一件事情，便是彻底摧毁这颗§d凋零下界之星§f。我们不能让§bGSA§f或者其他§6开拓者§f得到它。",
+    "dialog.teca_finale_dialog.finale.3": "不过....在销毁之前，我们可以研究下这颗§d下界之星的特性§f。",
+    "dialog.teca_finale_dialog.finale.4": "这件事我们来做最好，毕竟我们亲手杀死了灾厄..",
+    "dialog.teca_finale_dialog.finale.5": ".............",
+    //AGI联络员
+    "dialog.teca_finale_dialog.finale.6": "这里是§bGSA§f，我们侦测到§5凋零风暴§f信号的彻底消失。很抱歉我们当时做出了不理智的决定。",
+    //相位仪的话
+    "dialog.teca_finale_dialog.finale.7": "你们的反人类指控已经被撤销，不过由于§5凋零风暴§f造成的§d空间紊乱§f你们很长一段时间都回不了家了。",
+    "dialog.teca_finale_dialog.finale.8": "...... 我觉得我们一辈子都回不了家了，我可不觉得§bGSA§f后会安什么好心",
+    //GSA结局乐园支线
+    //相位仪的话
+    "dialog.teca_finale_eden_comes.1": "终于....我们成功了。我们成功杀死了§5凋零风暴§f..",
+    "dialog.teca_finale_eden_comes.2": "但我们仍需要做一件事情，便是彻底摧毁这颗§d凋零下界之星§f。我们不能让§bGSA§f或者其他§6开拓者§f得到它。",
+    "dialog.teca_finale_eden_comes.3": "不过....在销毁之前，我们可以研究下这颗§d下界之星的特性§f。",
+    "dialog.teca_finale_eden_comes.4": "这件事我们来做最好，毕竟我们亲手杀死了灾厄..",
+    "dialog.teca_finale_eden_comes.5": ".............",
+    //AGI联络员
+    "dialog.teca_finale_eden_comes.6": "这里--§bGSA§f，我们侦--到-§5凋零风暴§f信--的彻--消失。--我们--做--不理--决定-定-定-（信号丢失",
+    //相位仪的话
+    "dialog.teca_finale_eden_comes.7": "信号丢失......信号丢失......链接失效",
+    "dialog.teca_finale_eden_comes.8": "§4（奇怪的钟声响起）",
+    //GSA任务开启
+    //相位仪的话
+    "dialog.agirt.entry.1": "§bGSA§f任务面板已开启。",
+    "dialog.agirt.entry.2": "调查任务：§6了解当地生物",
+    "dialog.agirt.entry.3": "认证等级：§a初级干员",
+    "dialog.agirt.entry.4": "军备补贴：§7极少",
+    "dialog.agirt.entry.5": "在这个阶段，§bGSA§f给我们的任务是§6狩猎异界敌对生物。",
+    "dialog.agirt.entry.6": "也许我们可以先做些武器，毕竟§bGSA§f看着似乎也挺抠门的？",
+    //GSA任务1
+    //AGI联络员
+    "dialog.agirt.entry1.1": "§bGSA§f调查任务已开启。",
+    "dialog.agirt.entry1.2": "干员们，如今你们身处异界着实不易，但§bGSA§f需要获得当地生物的情报。",
+    "dialog.agirt.entry1.3": "尤其是那些令人作呕、完全无法交流的§4“怪物”§f。",
+    "dialog.agirt.entry1.4": "请多多狩猎这些怪物，这对人类未来殖民异界有重大帮助。",
+    //相位仪的话
+    "dialog.agirt.entry1.5": "希望§bGSA§f能快点派些人手来。虽然你死了可以复活，但某些§4怪物§f可不是一般的棘手。",
+    //GSA任务2
+    //AGI联络员
+    "dialog.agirt.entry2.1": "干员们，你们提交的战斗数据让§bGSA§f很满意。",
+    "dialog.agirt.entry2.2": "这是你们应得的初始装备和点数奖励，由于空间波动现在才送到。",
+    "dialog.agirt.entry2.3": "它们分别是：可以使用黑火药装药的§6CLF10霰弹枪/CBR9/斯宾塞步枪§f与对应子弹。",
+    "dialog.agirt.entry2.4": "请按照个人战斗方式，在任务界面§6选择对应的装备领取§f。",
+    "dialog.agirt.entry2.5": "现在回归正题，干员们。§bGSA§f需要你们提供更强大生物的情报或更多战斗数据。",
+    "dialog.agirt.entry2.6": "这会让§bGSA§f的计划推进得更加顺利，且会有相应的报酬。",
+    //相位仪的话
+    "dialog.agirt.entry2.7": "§bGSA§f似乎忘记给我们制造黑火药的技术了，看样子是希望我们自己解决这个问题。",
+    //GSA任务3
+    //AGI联络员
+    "dialog.agirt.entry3.1": "干员们，你们提交的手记内容让§bGSA§f总部很感兴趣。",
+    "dialog.agirt.entry3.2": "请务必多多狩猎这些超凡生物。§bGSA§f非常需要它们的样本和战斗记录。",
+    "dialog.agirt.entry3.3": "在完成这些任务后，§bGSA§f会提供对应的物资支持。",
+    "dialog.agirt.entry3.4": "不过请注意，目前阶段§bGSA§f不鼓励干员狩猎太过强大的超凡生物。",
+    "dialog.agirt.entry3.5": "因此，狩猎诸如独眼巨人/飞龙这类超凡生物，§bGSA§f将不会给予奖励。",
+    //相位仪的话
+    "dialog.agirt.entry3.6": "§bGSA§f真是谨慎呢......",
+    //GSA任务4
+    //AGI联络员
+    "dialog.agirt.entry4.1": "干员们，你们用自己的实力证明了自身拥有狩猎强大超凡生物的资格。",
+    "dialog.agirt.entry4.2": "当然，§bGSA§f的物质支持也不会少，请务必收下这些强力药水。",
+    "dialog.agirt.entry4.3": "在狩猎这些怪物后，§bGSA§f会免费将战利品制作成护甲和武器，并附带点数奖励。",
+    //相位仪的话
+    "dialog.agirt.entry4.4": "总算慷慨一回了。但§bGSA§f似乎跟其他§6开拓者§f有联系，不然解释不了这些药剂的成分。",
+    "dialog.agirt.entry4.5": "不过看样子他们对我们送去的战利品非常满意，希望这能让我们获得更多援助。",
+    //GSA任务5
+    //AGI联络员
+    "dialog.agirt.entry5.1": "干员们，你们提交的神秘液体非常有意思。",
+    "dialog.agirt.entry5.2": "这种液体一旦饮用，将会吸引方圆百里的刌民对村庄发起攻击。",
+    "dialog.agirt.entry5.3": "基于这些发现，§bGSA§f决定开启针对异界人文的调查任务。",
+    "dialog.agirt.entry5.4": "不过，异界的智慧生物从来不止有刌民和村民。热带草原和下界同样存在着智慧生物。",
+    "dialog.agirt.entry5.5": "它们分别是乌姆纳塔(即太阳鸟)和猪灵。",
+    "dialog.agirt.entry5.6": "当然，亡灵也算是智慧生物..但完全无法与其沟通，只能将其视作怪物。",
+    //相位仪的话
+    "dialog.agirt.entry5.7": "看样子我们要去cos刌民杀手了?",
+    //GSA任务6:
+    //AGI联络员
+    "dialog.agirt.entry6.1": "据你们提供的刌民样本，§bGSA§f成功解析出了神秘液体的信息。",
+    "dialog.agirt.entry6.2": "该液体并非刌民能够制造的物品，但却与其生理息息相关。",
+    "dialog.agirt.entry6.3": "结合经常有刌民侦察兵探索洞穴的情报，我们怀疑刌民是在某种地下遗迹制备的这种药剂。",
+    "dialog.agirt.entry6.4": "因此，干员们，§bGSA§f需要你们去地下寻觅古代遗迹。",
+    "dialog.agirt.entry6.5": "获取里面的古代物品后，提交给总部，即可获得津贴和部分超凡遗物。",
+    //相位仪的话
+    "dialog.agirt.entry6.6": "啊哈！§bGSA§f主打的盗墓环节！",
+    //GSA特殊任务
+    //AGI联络员
+    "dialog.agirt.entryz.1": "干员们...你们收到了§bGSA§f大客户.§e「K先生」§f的匿名委托。",
+    "dialog.agirt.entryz.2": "目标是捕获一只活体塞壬。完成任务后，§bGSA§f干员津贴会照常发放...。",
+    "dialog.agirt.entryz.3": "并且任务完成后，.§e「K先生」§f还会赠送他的个人收藏...一把齿轮式霰弹枪。",
+    "dialog.agirt.entryz.5": "看样子这位.§e「K先生」§f就是对塞壬很感兴趣的家伙...不过这家伙给的东西倒是不错。",
+    //相位仪的话
+    "dialog.agirt.entryz.6": "但总感觉这家伙真的很变态.....",
+    //GSA特殊任务奖励
+    //AGI联络员
+    "dialog.agirt.entryz1.1": "干员们，.§e「K先生」§f对你们提供的活体塞壬很满意。",
+    "dialog.agirt.entryz1.2": "因此，.§e「K先生」§f后续会直接给你们发布委托。",
+    "dialog.agirt.entryz1.3": "这是你们应得的§bGSA§f干员津贴...。",
+    "dialog.agirt.entryz1.4": "别忘了领取匿名赞助，不要辜负.§e「K先生」§f的一番心意。",
+    //GSA逆天任务
+    //K先生
+    "dialog.agirt.speaker.z": "§eK先生",
+    "dialog.agirt.entryz2.1": "干员们，想必你应该猜出我是谁了。",
+    //玩家对话
+    "dialog.agirt.optionz1.1": "你是K先生？",
+    "dialog.agirt.optionz1.2": "上次那个绑架塞壬的变态？",
+    //K先生
+    "dialog.agirt.entryz2.2": "没错。是我。你们曾经的合作对象。",
+    "dialog.agirt.entryz2.3": "我是来亲自给你们委托任务的。你们应该知道我对珍奇异兽很感兴趣...",
+    "dialog.agirt.entryz2.4": "这回的目标是森林里那些‌§9小精灵§f，用‌§e广口瓶§f带过来给我。她们很适合作为我的新藏品。",
+    "dialog.agirt.entryz2.5": "不过，各种颜色的小精灵都要来一种。当然，奖励也会有，那就是超凡饰品。",
+    "dialog.agirt.entryz2.6": "想必你不会拒绝这个委托的。",
+    //相位仪的话
+    "dialog.agirt.entryz2.7": "额....我们是不是该越级上报GSA，让他们管管§bGSA§f的风气?",
+    //K先生的发明
+    //K先生
+    "dialog.agirt.entryz3.1": "干员们，你们提供的小精灵令我非常满意。",
+    "dialog.agirt.entryz3.2": "特别是那只粉色的精灵，现在还保有充沛的活力。",
+    "dialog.agirt.entryz3.3": "这是你们应得的奖励，和本人好朋友§cz先生§f最喜欢的！§e超凡饰品§f。",
+    "dialog.agirt.entryz3.4": "这个方形饰品可以持续将‌§e电属性魔法灌注§f进使用者体内。",
+    "dialog.agirt.entryz3.5": "带给使用者速度、力量和攻击速度的加成。§e只要捆在腰上就好§f。",
+    "dialog.agirt.entryz3.6": "副作用是会感到些许§e酥酥麻麻§f的。",
+    "dialog.agirt.entryz3.7": "想必你不会像§bGSA§f那帮蠢货一样拒绝掉这件强力饰品吧。",
+    //相位仪的话
+    "dialog.agirt.entryz4.8": "§c侦测到软体不稳定§f",
+    //乌姆纳塔
+    //相位仪的话
+    "dialog.agirt.entry7.1": "这些§e乌姆纳塔§f都佩戴着面具。",
+    "dialog.agirt.entry7.2": "也许我们也可以通过佩戴面具的办法混入其中。",
+    "dialog.agirt.entry7.3": "这样就可以趁机跟他们的酋长谈谈心...",
+    "dialog.agirt.entry7.4": "不过得小心，不要激怒那位酋长。",
+    //GSA咕咕嘎嘎
+    "dialog.agirt.speaker.umvuthi": "§e乌姆纳塔酋长",
+    "dialog.agirt.speaker.barako": "§e巴拉尔克酋长",
+    //酋长对话
+    "dialog.agirt.umvuth.1": "咕嘎嘎？你们是野人！？",
+    "dialog.agirt.umvuth.2": "嘎嘎咕！为什么戴上面具伪装成我族的模样！",
+    //玩家对话
+    "dialog.agirt.umvuth.option.1": "伟大的乌姆纳塔酋长！因为我们仰慕您的阳光！",
+    "dialog.agirt.umvuth.option.2": "因为您是大鸟！还会咕咕嘎嘎！",
+    "dialog.agirt.umvuth.option.3": "哈！————哈————！！！",
+    //option.1选项酋长对话
+    "dialog.agirt.he.2": "哈哈哈哈！很好，我已经很久没见过这么虔诚的野人了。但本酋长乃是巴拉尔克！",
+    //option.2选项酋长对话
+    "dialog.agirt.he1.2": "咕....? 咕咕嘎嘎！ 咕咕嘎嘎！野人！你逗乐了我。但本酋长叫做巴拉尔克！",
+    //option.3选项酋长对话
+    "dialog.agirt.be.1": "咕！！无礼之徒！你将面对伟大的巴拉尔克酋长的怒火！",
+    //酋长对话
+    "dialog.agirt.barako.1": "说吧，有什么事情，趁本酋长心情不错。",
+    //玩家对话
+    "dialog.agirt.umvuth.option.4": "我们想要了解贵族的过往知识！",
+    "dialog.agirt.umvuth.option.5": "咕咕嘎嘎！咕咕嘎嘎！咕咕嘎嘎！咕咕嘎嘎！",
+    //option.4选项酋长对话
+    "dialog.agirt.barako.2": "我族秘闻不会告诉外人，所以我需要你给予我§e7块黄金§f接受太阳神的赐福。否则我族不会认可你。",
+    "dialog.agirt.barako.3": "很好！凡人！我们的恩怨一笔勾销！你今后能够免费找本酋长接受赐福了！现在！请细细听伟大的§e巴拉尔克酋长§f缓缓道来。",
+    //option.5选项酋长对话
+    "dialog.agirt.barako.4": "咕咕嘎嘎！咕咕嘎嘎！咕咕嘎嘎！哈哈哈真是拿你没办法！请细细听§e本大鸟§f缓缓道来。",
+    //酋长对话
+    "dialog.agirt.barako.5": "本酋长原本是人类之躯，曾是部落里最壮硕的战士。§e后来伟大的太阳神赐下赐福§f，将吾面庞化为§e黄金§f。",
+    "dialog.agirt.barako.6": "可本人当时年少轻狂，屈服于贪欲和食欲，整日用§e神力§f统治子民，却忽视了外界的威胁。",
+    "dialog.agirt.barako.7": "后续更是被一位掌握黑魔法的巫师，连带着子民一起变为了鸡！",
+    "dialog.agirt.barako.8": "好在太阳神还愿意接受我族的祈祷，因此§e我族浴火重生！化为乌姆纳塔一族§f。",
+    "dialog.agirt.barako.9": "这就是可以告诉你的我族秘闻。本酋长很累了。退下吧！",
+    "dialog.agirt.barako.10": "切记！面具乃是证明对我族并无恶意的象征，§c如果胆敢在我族领地摘下面具，休怪本酋长不顾今日情分！",
+    //相位仪的话
+    "dialog.agirt.barako.11": "这位圆滚滚酋长似乎挺好说话的。",
+    //GSA逗乐酋长
+    //AGI联络员
+    "dialog.agirt.barako1.1": "干员们，你们成功调查清楚了§e乌姆纳塔§f的文化。",
+    "dialog.agirt.barako1.2": "这是你们应得的奖励，§bGSA§f感谢你们的贡献。",
+    //GSA花钱找酋长买祝福
+    //AGI联络员
+    "dialog.agirt.barako2.1": "干得漂亮！干员们！你们不光获取了样本、调查了乌姆纳塔的文化，",
+    "dialog.agirt.barako2.2": "还提供了宝贵的超凡之力获取途径，成功为人类研究超凡之力的伟大事业添砖加瓦！",
+    "dialog.agirt.barako2.3": "这是你们应得的奖励，以及损失了§e7块黄金§f的补偿。§bGSA§f和全人类感谢你们的贡献！",
+    //相位仪的话
+    "dialog.agirt.barako2.4": "看样子§bGSA§f还算讲良心。",
+    //GSA杀酋长
+    //AGI联络员
+    "dialog.agirt.barako3.1": "干员们，你们成功收集到了§e巴拉尔克酋长§f的样本。",
+    "dialog.agirt.barako3.2": "这是你们应得的奖励，§bGSA§f感谢你们的贡献。",
+    //相位仪的话
+    "dialog.agirt.barako3.3": "所以现在我们来当走地鸡们的酋长了？",
+    //GSA试炼解密
+    //AGI联络员
+    "dialog.agirt.entry8.1": "干员们，§bGSA§f已成功收到你们关于试炼密室的调查报告。",
+    "dialog.agirt.entry8.2": "经过§bGSA§f专家组的评估，试炼密室是支撑刌民庞大帝国的基础。",
+    "dialog.agirt.entry8.3": "但实际上，该设施的历史可以追溯到某个远古文明，刌民仅仅利用了其中的部分功能。",
+    "dialog.agirt.entry8.4": "他们并未激活密室的全部功能。以上便是完整评估报告。",
+    //相位仪的话
+    "dialog.agirt.entry8.5": "当然，你们应得的奖励和额外绩效也不会少。",
+    "dialog.agirt.entry8.6": "刌民真是群为了力量不择手段的家伙。",
+    //地卜师的邀请
+    //通臂大师
+    "dialog.agirt.speaker.earthrend2": "§2（无比苍老的声音）",
+    "dialog.agirt.speaker.earthrend": "§2通臂大师",
+    "dialog.agirt.earthrend.1": "异界的来客，请留步！听老朽一言。",
+    //玩家对话
+    "dialog.agirt.earthrend.option.1": "你是谁？",
+    "dialog.agirt.earthrend.option.2": "请问老人家贵姓，找在下何事？",
+    //通臂大师
+    "dialog.agirt.earthrend.2": "别急别急，老朽这就慢慢道来。",
+    "dialog.agirt.earthrend.3": "哈哈哈哈哈！老朽这就如实相告。",
+    "dialog.agirt.earthrend.4": "吾乃如今的地卜术传人，§2通臂大师§r是也。",
+    "dialog.agirt.earthrend.5": "吾善使地卜之术观察世间万物。而以老朽眼光观之，汝便有接受老朽传承之资！",
+    "dialog.agirt.earthrend.6": "老朽已将自身修身养性之地所在告知于汝。",
+    "dialog.agirt.earthrend.7": "汝若心志坚定，来到老朽所在之地，完成老朽之挑战，",
+    "dialog.agirt.earthrend.8": "汝便可获得地卜之力，老朽便可安息了！",
+    //相位仪的话
+    "dialog.agirt.earthrend.9": "看样子这位老爷子总算找到救命稻草了...",
+    //地卜师的安息
+    //通臂大师
+    "dialog.agirt.earthrend.2.1": "哈哈哈哈...老朽...总算可以瞑目了...",
+    //AGI联络员
+    "dialog.agirt.earthrend.2.2": "干员们，你们完成了§2通臂大师§f的调查任务。",
+    "dialog.agirt.earthrend.2.3": "这是你们应得的奖励以及免费的大地护手升级服务。",
+    "dialog.agirt.earthrend.2.4": "不过...§bGSA§f也算是科研机构，因此护手的升级和研究是同步进行的。这可能会多花一点时间。",
+    "dialog.agirt.earthrend.2.5": "如果你实在着急，也可以放弃升级。但...§4机会只有一次§f。",
+    //相位仪的话
+    "dialog.agirt.earthrend.2.6": "§bGSA§f真是群黑心的家伙。",
+    //杀死地卜师的地卜师的死不瞑目
+    //通臂大师
+    "dialog.agirt.earthrend.3.1": "孽..孽畜！.......",
+    //AGI联络员
+    "dialog.agirt.earthrend.3.2": "干员们，你们未能完成§2通臂大师§f的调查任务。",
+    "dialog.agirt.earthrend.3.3": "§4任务失败§f",
+    //冠军计划
+    //AGI联络员
+    "dialog.agirt.champion.1": "干员们，你们成功让母世界对异界超凡力量的调查有了眉目。",
+    "dialog.agirt.champion.2": "这是你们应得的报酬、支援武器以及提拔任命书。",
+    "dialog.agirt.champion.3": "结合你们的过往贡献，§bGSA§r正式将你们提拔至§d「冠军计划」行动组§f。",
+    "dialog.agirt.champion.4": "所谓冠军计划，一言概之，便是利用强大超凡生物死后析出的结晶强化人类的计划。",
+    "dialog.agirt.champion.5": "目前§bGSA§r正在调查异界古代文明利用冠军碎片的方法。",
+    "dialog.agirt.champion.6": "保持精力对完成任务至关重要，因此请做好准备。",
+    //相位仪的话
+    "dialog.agirt.champion.7": "看样子我们总算从临时工变成正式工了。",
+    "dialog.agirt.champion.8": "不过新装备居然是M16这种过时的步枪...",
+    //冠军计划开启
+    //相位仪的话
+    "dialog.agirt.champion1.1": "§d「冠军计划」面板已开启。",
+    "dialog.agirt.champion1.2": "调查任务：§d调查冠军之力",
+    "dialog.agirt.champion1.3": "认证等级：§2行动组干员",
+    "dialog.agirt.champion1.4": "军备补贴：§6标准",
+    "dialog.agirt.champion1.5": "在这个阶段，§bGSA§f给我们的任务是调查冠军之力。",
+    "dialog.agirt.champion1.6": "提示：后续将要面对更加强大的超凡生物，请多多制作心之容器提高生命上限。",
+    //猪灵之谜
+    //AGI联络员
+    "dialog.agirt.champion2.1": "干员们，根据专家组推测，猪灵似乎掌握着将下界合金与冠军碎片结合的技术。",
+    "dialog.agirt.champion2.2": "因此，§bGSA§r需要你们前往下界，从古代猪灵的§d「灵魂锻造厂」§f中寻找有关冠军之力的线索。",
+    "dialog.agirt.champion2.4": "请收下这枚§e恶兽之眼§r。此物能指引使用者前往§d「灵魂锻造厂」§f。",
+    //相位仪的话
+    "dialog.agirt.champion2.5": "§bGSA§r总算肯指路了..但下界是§6非常炎热§r的位面，建议§9副手手持冰块§r，并备好足够的§b饮用水§r后再出发。",
+    //抵达锻造厂后
+    "dialog.agirt.pig.1": "（地面上似乎有什么东西）",
+    //玩家选项
+    "dialog.agirt.pig.option.1": "捡起造型奇特的石板",
+    "dialog.agirt.pig.option.2": "将保存完好的石板放入口袋",
+    "dialog.agirt.pig.2": "（你伸出的手猛然放下）",
+    //警报
+    "dialog.agirt.speaker.alarm": "§c锻造厂警报",
+    "dialog.agirt.pig.3": "§c警告！警告！警告！侦测到入侵者！",
+    //猪灵
+    "dialog.agirt.speaker.pig": "§6猪灵",
+    "dialog.agirt.pig.4": "哼噜！哼噜噜！是闯入圣地的人类！快呼叫支援！",
+    //相位仪的话
+    "dialog.agirt.pig.5": "侦测到附近有多个目标正在快速接近，请做好战斗准备！",
+    "dialog.agirt.pig.6": "提示：也许击败趴在蓝火里的大块头能让§bGSA§r惊掉下巴？",
+    //调查完成
+    //AGI联络员
+    "dialog.agirt.champion3.1": "干员们，§bGSA§r已接收到锻造模板。",
+    "dialog.agirt.champion3.2": "经过专家组联合评估，这里面不仅记载了制造下界合金制品的方法，还包含了更多内容。",
+    "dialog.agirt.champion3.3": "专家组正在加班加点进行解析。这是你们应得的报酬与高温补贴。",
+    //相位仪的话
+    "dialog.agirt.champion3.4": "所谓的高温补贴竟然是抗火药水...为什么不一开始就发呢？",
+    //调查完成+杀死下界合金巨兽
+    //AGI联络员
+    "dialog.agirt.champion4.1": "干员们....干得漂亮...§bGSA§r已接收到锻造模板与下界合金巨兽残骸...。",
+    "dialog.agirt.champion4.2": "经过专家组联合评估，你们这回提交的样本几乎蕴含了整个古猪灵文明的工业体系信息。",
+    "dialog.agirt.champion4.3": "专家组正在加班加点进行解析。这是你们应得的报酬与补贴。",
+    "dialog.agirt.champion4.4": "以及....一次升级炼狱锻锤的机会。虽然升级仍需花费一定时间...但总部仍有充足的时间等待....",
+    //相位仪的话
+    "dialog.agirt.champion4.5": "看样子你这回着实让§bGSA§r这帮官老爷惊掉了下巴，让他们重拾了失去多年的耐心。",
+    //寻找证据
+    //AGI联络员
+    "dialog.agirt.champion5.1": "干员们，§bGSA§r专家组对猪灵样本的解析已经完成。",
+    "dialog.agirt.champion5.2": "但我们需要更多的证据来证实我们的发现。",
+    "dialog.agirt.champion5.3": "所以，你们需要在下界的灵魂沙里寻找一种远古寄生虫的幼体。",
+    //得出结论
+    //AGI联络员
+    "dialog.agirt.champion6.1": "干员们，§bGSA§r已经得知了你们在灵魂沙中发现了远古寄生虫幼体。",
+    "dialog.agirt.champion6.2": "这是你们应得的奖励和一些潜水装备。",
+    "dialog.agirt.champion6.3": "有了该幼体存在的证据，专家组便可得出结论：远古残骸本质上是该生物宿主的残骸。",
+    "dialog.agirt.champion6.4": "而古代猪灵便是利用这种古生物的器官，制造出了可以容纳冠军之力的容器。",
+    "dialog.agirt.champion6.5": "可惜该物种不能适应愈发炎热的下界，就此灭绝。",
+    "dialog.agirt.champion6.6": "但利用生命之力制造容器的方法启发了§bGSA§r。",
+    "dialog.agirt.champion6.7": "因此，你们这次的任务是前往利维坦盘踞的沉沦之城，调查其中蕴含着生命之力的紫水晶祭坛。",
+    //相位仪的话
+    "dialog.agirt.champion6.8": "§bGSA§r终于想起来提前发需要用的装备了..",
+    //沉沦之城
+    //GSA联络员
+    "dialog.agirt.champion7.1": "干员，你已成功抵达沉沦之城。",
+    "dialog.agirt.champion7.2": "即将进入电磁干扰区，相位仪将暂时不可用。",
+    //水母
+    "dialog.agirt.speaker.jellyfish": "§b空灵的声音",
+    "dialog.agirt.champion7.3": "§b人类，立即离开这片海域！",
+    "dialog.agirt.champion7.4": "§b这里沉睡着§d利维坦§b，快走...",
+    //利维坦
+    "dialog.agirt.speaker.Leviathan": "§d低语声",
+    "dialog.agirt.champion7.5": "§d呵呵...别理他。访客...真是令人愉悦。",
+    //玩家选项
+    "dialog.agirt.champion7.option.1": "你是什么东西？",
+    "dialog.agirt.champion7.option.2": "(尝试关闭相位仪)",
+    //利维坦
+    "dialog.agirt.champion7.6": "§d只是个...被时间遗忘的存在罢了。",
+    "dialog.agirt.champion7.7": "§d没用的...但请放心，我怀着善意而来。",
+    //相位仪的话
+    "dialog.agirt.champion7.8": "(遭受电磁干扰...暂不可用...)",
+    //利维坦
+    "dialog.agirt.champion7.9": "§d找到紫水晶祭坛...我会告诉你更多...",
+    // 找到紫水晶祭坛后
+    //利维坦
+    "dialog.agirt.speaker.leviathan1": "§d利维坦",
+    "dialog.agirt.champion8.1": "§d啊...你找到祭坛了...现在听我说。",
+    "dialog.agirt.champion8.2": "§d将金苹果置于祭坛...它会吸收生命之力成为§5护卫容器§d。",
+    "dialog.agirt.champion8.3": "§d然后在工作台中，将七片冠军碎片与§e护卫容器§r、§c心之容器§d合成。",
+    "dialog.agirt.champion8.4": "§d这样就能获得§7未完成的容器§d了。",
+    // 完成未完成容器后
+    //利维坦
+    "dialog.agirt.champion9.1": "§d很好...现在用紫水晶共振为它充能吧。",
+    "dialog.agirt.champion9.2": "§d那些§b蠢货守卫§d马上会来打扰...需要我帮你处理掉吗？",
+    //玩家选项
+    "dialog.agirt.champion9.option.1": "不需要",
+    //利维坦
+    "dialog.agirt.champion9.3": "§d有胆识...那就让我看看你的实力吧。",
+    // 击败守卫后
+    //利维坦
+    "dialog.agirt.champion10.1": "§d做得好...这便是真正的§f冠军容器§d。",
+    "dialog.agirt.champion10.2": "§d它能完美容纳冠军之力...但你那可怜的本源无法直接承受...容器需要被赋予象征。",
+    "dialog.agirt.champion10.3": "§d赋予象征的办法...便是击败那些执掌禁忌的王者，夺取他们守护的古老智慧：",
+    "dialog.agirt.champion10.4": "§d制造§6融毁之魂§d的奥秘，由§e烈焰竞技场§d那位嗜战成狂的火元素之王守护。",
+    "dialog.agirt.champion10.5": "§d制造§9抑制之魂§d的技艺，封存在§6灵魂锻造厂§d那台古代猪灵的终极战争机器之中。",
+    "dialog.agirt.champion10.6": "§d制造§b急速之魂§d的秘法，掌握在§2苦寒监牢§d那位被诅咒元素附身的堕落王者手中。",
+    "dialog.agirt.champion10.7": "§d制造§a活力之魂§d的真谛，埋藏在§c远古工厂§d那具模仿凋零而生的远古兵器体内。",
+    "dialog.agirt.champion10.8": "§d不过...这些被赋予象征的容器...你那弱小的本源，可能在获得力量时...痛苦不堪。",
+    "dialog.agirt.champion10.9": "§d但...对你们凡人而言，力量比什么都重要。不是吗？桀桀桀...",
+    "dialog.agirt.champion10.10": "§d拿到配方后...记得回来找我哦。咯咯咯...",
+    // 离开沉沦之城后联系总部
+    //相位仪的话
+    "dialog.agirt.champion11.1": "（信号已恢复）",
+    //GSA联络员
+    "dialog.agirt.champion11.2": "干员，你已离开信号屏蔽区，请汇报情况。",
+    //玩家选项,
+    "dialog.agirt.champion11.option.1": "沉沦之城有未知势力....",
+    "dialog.agirt.champion11.option.2": "我与一个超凡生物建立了联系...",
+    //相位仪的话
+    "dialog.agirt.champion11.3": "(你汇报了你的遭遇)",
+    //GSA联络员
+    "dialog.agirt.champion11.4": "....§bGSA§r已收到你的报告...提交冠军容器后，立即返回安全地点待命。",
+    "dialog.agirt.champion11.5": "你的报酬...将与后续指示一同送达。",
+    //后续指示
+    //GSA联络员
+    "dialog.agirt.champion12.1": "干员们，经专家组分析，已确认沉沦之城的不明超凡生物正是§d利维坦§r。",
+    "dialog.agirt.champion12.2": "这是你应得的报酬，以及...经专家组商议，决定交还给你的冠军容器。",
+    "dialog.agirt.champion12.3": "现在回归正题。虽然§d利维坦§r传播知识的举动极其可疑，但其提供的§d冠军容器§r纯度极高。",
+    "dialog.agirt.champion12.4": "因此经总部内部协商，§bGSA§r决定继续研究§d利维坦§r提供的技术路线。",
+    "dialog.agirt.champion12.5": "毕竟，若该技术可行...以凡人之躯承载神明之力将不再是幻想....",
+    //相位仪的话
+    "dialog.agirt.champion12.6": "不管§d利维坦§r有何企图，§bGSA§r总算不会随便没收我们的成果了。",
+    // 获取四大魂后配方
+    //GSA联络员
+    "dialog.agirt.champion13.1": "干员，你已集齐所有§f冠军容器§d的配方。",
+    "dialog.agirt.champion13.2": "在击败诸多超凡生物后，这是你的奖励与§bGSA§r的最新指示：",
+    "dialog.agirt.champion13.3": "§bGSA§r专家组对利维坦的调查取得进展，现需你制作一枚§a活力之魂§f。",
+    "dialog.agirt.champion13.4": "这将是揭开利维坦真实目的的关键一步。",
+    //寻找知识
+    //GSA联络员
+    "dialog.agirt.champion14.1": "干得漂亮！干员！你已经成功制造了§a活力之魂§f",
+    "dialog.agirt.champion14.2": "但§bGSA§r专家组仍需更多有关古代文明的知识",
+    "dialog.agirt.champion14.3": "因此，你们接下来的任务便是前往§2幽匿古城§d寻找古代文献",
+    //相位仪的话
+    "dialog.agirt.champion14.4": "听说有一位干员发出的动静太大导致其在§2幽匿古城§d失踪了，也许在§2幽匿古城§r潜行会很有用？",
+    // 等待分析与社恐学家的委托
+    //GSA联络员
+    "dialog.agirt.champion15.1": "干员们，总部已接收到§6古代文献§f。专家组已开始紧急解析工作。",
+    "dialog.agirt.champion15.2": "这是你们执行危险任务的报酬...以及一位植物学家提交的调查委托。",
+    //社恐植物学家
+    "dialog.agirt.speaker.fabric": "§a植物学家瑞克",
+    "dialog.agirt.champion15.3": "呃...那个...你、你好？我是...§bGSA§r专家组的法布尔,,瑞克...负责植物学研究...",
+    "dialog.agirt.champion15.4": "能不能...拜托你再去一趟§2幽匿古城§r...找、找一种§b远古树苗§r...",
+    "dialog.agirt.champion15.5": "我、我会准备很丰厚的报酬...毕竟是很危险的任务...",
+    //相位仪的话
+    "dialog.agirt.champion15.6": "原来专家组里也有这种说话会发抖的瘦竹竿啊...",
+    //禁忌之果合成完毕
+    //GSA联络员
+    "dialog.agirt.champion17.1": "干得漂亮，干员！你成功完成了§bGSA§r专家组的实验委托。",
+    "dialog.agirt.champion17.2": "这是你应得的报酬...以及来自§bGSA§r首席的§e直接指示§f。",
+    //K先生登场
+    "dialog.agirt.speaker.championz": "§e「冠军计划」首席",
+    "dialog.agirt.champion17.3": "好久不见。有没有想我啊？",
+    "dialog.agirt.champion17.option.1": "居然是你？",
+    "dialog.agirt.champion17.option.2": "K先生？！",
+    "dialog.agirt.champion17.4": "很意外吗？我们不是很好的合作对象吗。",
+    "dialog.agirt.champion17.5": "现在正式重新介绍一下：我是§bGSA§d「冠军计划」行动组§f的首席§e「K先生」§f。",
+    //任务指示
+    "dialog.agirt.champion17.6": "我绕过了§bGSA§r那群死守伦理的蠢货专家，直接给你下达这个绝密任务。",
+    "dialog.agirt.champion17.7": "你需要用龙心和鲜血，复活地狱里那些沉睡的寄生虫幼体。",
+    "dialog.agirt.champion17.8": "至于你是否愿意为了力量将其融入本源...呵，那不重要。",
+    "dialog.agirt.champion17.9": "我要的是——让寄生虫吞噬§d利维坦§f进化后，被你亲自融入§c禁忌之果§f和剩余的冠军之魂中！",
+    "dialog.agirt.champion17.10": "完成这些，你就能获得§4最强大的冠军之魂§f！将其融入本源，成为真正的§5神话生物§f。这便是我的终极目标。",
+    "dialog.agirt.champion17.11": "想必你不会拒绝吧？毕竟...为了力量走到这一步的你。",
+    //玩家选项
+    "dialog.agirt.champion17.option.3": "这对你有什么好处？",
+    "dialog.agirt.champion17.option.4": "你究竟在谋划什么？！",
+    //K先生回应
+    "dialog.agirt.champion17.12": "你不需要知道。反正这对你可是天大的好处呢...(通讯被挂断)",
+    //利维坦之怒
+    "dialog.agirt.champion18.1": "§d（震耳欲聋咆哮）",
+    "dialog.agirt.champion18.2": "§d哈哈哈哈！渺小的蝼蚁...竟妄想用这种卑劣的寄生虫吞噬吾之血肉？！",
+    "dialog.agirt.champion18.3": "§d很好...既然你执意要提前挑战深渊之主...吾便成全你这可笑的野心~",
+    "dialog.agirt.champion18.4": "§d去收集深渊祭品吧...对你这样贪婪的猎犬来说...应该不算什么难事...",
+    "dialog.agirt.champion18.5": "§d不是吗...我亲爱的§4小零食§d？咯咯咯咯...",
+    //统御之杯
+    //K先生的通讯
+    "dialog.agirt.champion19.1": "（鼓掌声）",
+    "dialog.agirt.champion19.2": "恭喜你，我亲爱的神话生物~§c猩红圣杯很美不是吗？",
+    "dialog.agirt.champion19.3": "不过...让我们看看你和§4真正的天灾§e有多大差距吧~",
+    "dialog.agirt.champion19.4": "我把GSA的§4凋零风暴§e送到你所在的位面了~就当是...晋升典礼的助兴仪式？",
+    "dialog.agirt.champion19.5": "祝狩猎愉快~那个§4大家伙§e会在三天后准时登台表演~",
+    //GSA联络员
+    "dialog.agirt.champion19.6": "（干扰杂音）",
+    "dialog.agirt.champion19.7": "§c警告！§4凋零风暴正在进入本位面！§f重复！§4凋零风暴正在进入本位面！§f——",
+    "dialog.agirt.champion19.8": "干员...不，现在该称您为§d半神§f了...",
+    "dialog.agirt.champion19.9": "§bGSA§f紧急指令：请务必消灭那个对母世界造成极大伤亡的§4凋零风暴§f...",
+    "dialog.agirt.champion19.10": "我们...已无力阻止凋零风暴前往你所在的位面...",
+    "dialog.agirt.champion19.11": "但我们可以提供对抗凋零风暴所需的情报与物资支援",
+    "dialog.agirt.champion19.12": "根据古代记载，该世界的文明曾举族对抗过§5凋零风暴§f",
+    "dialog.agirt.champion19.13": "但任何常规武器对§5凋零风暴§f造成的伤害都微乎其微",
+    "dialog.agirt.champion19.14": "他们最终发现必须杀死§5凋零风暴§f孕育的§5凋零共生体§f",
+    "dialog.agirt.champion19.15": "通过§5共生体§f死亡凝聚的§e特殊附魔书§f，才能使武器真正伤害§5凋零风暴§f",
+    "dialog.agirt.champion19.16": "这是曾在母世界消灭凋零风暴的反物质炸弹，现在异界更需要它",
+    "dialog.agirt.champion19.17": "注意！必须等待§4凋零风暴§f现身时才能投放炸弹",
+    "dialog.agirt.champion19.18": "根据远古典籍记载，您还需要一把§d命令武器§f来给予最终一击",
+    "dialog.agirt.champion19.19": "而锻造命令武器的附魔书，只有§d半神§f您亲手击杀§5凋零共生体§f才能获得",
+    //巨兽离开母世界在到异界的路上
+    //相位仪的话
+    "dialog.agirt_storm_warning.entry.1": "§c警报！§f侦测到维度异常波动，预计三天后遭遇§3凋零风暴§f。",
+    "dialog.agirt_storm_warning.entry.2": "持续时间……无法预测。",
+    //玩家选项
+    "dialog.agirt_storm_warning.option.a": "看样子§d大个子§f打算继续胡吃海塞了。",
+    "dialog.agirt_storm_warning.option.b": "该做最后的准备了。",
+    //巨兽死了
+    //GSA联络员
+    "dialog.agirt.champion20.1": "干员！...您真的办到了。您杀死了§5凋零风暴§f...",
+    "dialog.agirt.champion20.2": "但总部需要您决定...这颗§d凋零下界之星§f要怎么处理？销毁还是留下？",
+    "dialog.agirt.champion20.3": "不过...§bGSA§r希望能研究下这颗§d下界之星§f的特性...",
+    //玩家选项
+    "dialog.agirt.champion20.option.1": "想都别想，必须销毁",
+    "dialog.agirt.champion20.option.2": "我自己来处理",
+    //GSA回应option.1
+    "dialog.agirt.champion20.4": "明白了...我们尊重您的选择...",
+    //GSA回应option.2
+    "dialog.agirt.champion20.5": "说实话...§bGSA§r现在也管不了您了...",
+    //GSA联络员
+    "dialog.agirt.champion20.6": "还有个坏消息...因为凋零风暴和K先生搞的破坏...",
+    "dialog.agirt.champion20.7": "传送门至少得§c一百年§f才能修好...您暂时回不去了...",
+    //相位仪的话
+    "dialog.agirt.champion20.8": "说白了就是你回去会被收容起来。但是不一定能抓住你，就扯个谎不让你回去...§bGSA§r就这德行",
+    //GSA结局乐园支线
+    //GSA联络员
+    "dialog.agirt.finale_eden_comes.1": "干员！...您真的办到了。您杀死了§5凋零风暴§f...",
+    "dialog.agirt.finale_eden_comes.2": "但总部需要您决定...这颗§d凋零下界之星§f要怎么处理？销毁还是留下？",
+    "dialog.agirt.finale_eden_comes.3": "不过...§bGSA§r希望能研究下这颗§d下界之星§f的特性...",
+    //玩家选项
+    "dialog.agirt.finale_eden_comes.option.1": "想都别想，必须销毁",
+    "dialog.agirt.finale_eden_comes.option.2": "我自己来处理",
+    "dialog.agirt.finale_eden_comes.option.3": "（戴上面具）",
+    //GSA回应option.1
+    "dialog.agirt.finale_eden_comes.4": "明白了...我们尊重您的选择...",
+    //GSA回应option.2
+    "dialog.agirt.finale_eden_comes.5": "说实话...§bGSA§r现在也管不了您了...",
+    //GSA回应option.3
+    "dialog.agirt.finale_eden_comes.6": "（一阵杂音）",
+    //GSA联络员
+    "dialog.agirt.finale_eden_comes.7": "还--消息...因--凋零--和K--的破坏...",
+    "dialog.agirt.finale_eden_comes.8": "传送--§c一百年§f才--您暂时--（信号中断",
+    //相位仪的话
+    "dialog.agirt.finale_eden_comes.9": "信号丢失......信号丢失......链接失效",
+    "dialog.agirt.finale_eden_comes.10": "§4（奇怪的钟声响起）",
+    //屑红白
+    "dialog.agirt.speaker.reimu": "§c？？？",
+    "dialog.agirt.reimu.1": "...哈啊？这不是我丢的那个破赛钱箱吗。",
+    "dialog.agirt.reimu.2": "等等...你居然真的往里面塞钱了？！虽然都是些奇怪的金属片...",
+    "dialog.agirt.reimu.3": "哼~看在你这么有诚意的份上...这支用坏的御币就特别赏给你啦！",
+    //关于不死军团
+    //相位仪的话
+    "dialog.undead_army_intro.entry.1": "在本整合包中，§5不死军团§f会在一名玩家击杀1000只亡灵后出现，§c它会随着时间的推移和玩家参与进来的多少而增加难度。",
+    "dialog.undead_army_intro.entry.2": "在杀死最后的亡灵后，每个在亡灵军队区域内的玩家都将获得 §e亡灵军团宝藏袋§f。",
+    "dialog.undead_army_intro.entry.3": "在普通难度下，会有骷髅、僵尸、尸壳、凋零骷髅、§6Tank§f、§c地狱犬§f出现。在专家难度下：会有§6骷髅先锋§f、§f§c巨人§f等敌人。关底BOSS是击杀后会进入§4大师难度§f的凋零。",
+    "dialog.undead_army_intro.entry.4": "在§4大师难度§f下：普通亡灵会被替换为§c骷髅先锋、再行魂尸、精英魂尸、皇家魂尸§f。小BOSS包含§4地狱犬、巨人、冥行武弁§f，最终BOSS是§3咒翼灵骸§f。",
+    //关于入侵
+    //相位仪的话
+    "dialog.invasion.entry.1": "在本整合包中，存在名为§4入侵§f的特殊事件。",
+    "dialog.invasion.entry.2": "首次进入游戏后，你将享有§a7天（游戏内时间）的安全期§f，此期间不会触发任何入侵。",
+    "dialog.invasion.entry.3": "入侵事件分为三个难度等级：§6普通§f/§c超级§f/§5噩梦§f。\n高难度袭击会影响游戏亮度，准备好你的照明手段！",
+    "dialog.invasion.entry.4": "§4日间入侵§f比§5夜间入侵§f更稀有且困难。",
+    "dialog.invasion.entry.5": "触发规律：",
+    "dialog.invasion.entry.6": "安全期结束后每天都可能发生袭击，袭击皆可通过§c击杀150个入侵实体§f提前终止。",
+    "dialog.invasion.entry.7": "平均每§64天§f发生一次低难度入侵，平均每§c7天§f可能发生一次高难度入侵。",
+    //关于冠军
+    //相位仪的话
+    "dialog.champion.entry.1": "冠军怪物是一种比普通怪物更加强大的个体。",
+    "dialog.champion.entry.2": "冠军分为§7稀有§f/§e精英§f/§6大师§f/§b传奇§f/§d神话§f五个等级，每一级会获得一种§d词条§f。",
+    "dialog.champion.entry.3": "你是否要查看词条的详细效果？",
+    //玩家选项
+    "dialog.champion.option.yes": "是",
+    "dialog.champion.option.no": "否",
+    //相位仪的话
+    "dialog.champion.entry.4": "§d适应§f：连击伤害递减\n§d极寒§f：发射冰弹减速目标\n§d灰烬§f：发射火球引发爆炸\n§d抑制§f：减免远程伤害",
+    "dialog.champion.entry.5": "§d亵渎§f：生成持续伤害区域\n§d急速§f：大幅提升移速\n§d感染§f：受击召唤蠹虫\n§d瘫痪§f：概率定身目标",
+    "dialog.champion.entry.6": "§d爆震§f：增强击退效果\n§d活力§f：自动回血（静止时更快）\n§d熔融§f：提升破甲能力\n§d瘟疫§f：传播凋零效果",
+    "dialog.champion.entry.7": "§d反射§f：反弹部分伤害\n§d创伤§f：概率降低目标恢复力\n§d防护§f：周期性无敌\n§d磁力§f：定期牵引目标\n§d监禁§f：概率禁锢敌人",
+    "dialog.champion.entry.end": "请小心应对这些拥有词条的怪物，尤其是§b传奇级§f和§d神话级§f。",
+    //关于流血
+    //相位仪的话
+    "dialog.bleeding.entry.1": "在本整合包中，枪械和近战武器命中实体会使实体§c流血§f，可使用绷带进行包扎。",
+    "dialog.bleeding.entry.2": "使用§e剑§f、§e斧§f、§e镐§f、§e锹§f、§e锄§f造成的§c流血§f可以被护甲减免。",
+    "dialog.bleeding.entry.3": "使用§6长剑§f、§6长刀§f、§6长戟§f等特殊武器造成的§c流血§f无法被护甲减免。",
+    "dialog.bleeding.entry.4": "§d传奇武器§f与枪械命中目标会造成§4出血§f，§4出血§f无法使用绷带止血，掉血迅速且无法被护甲减免。"
+  }

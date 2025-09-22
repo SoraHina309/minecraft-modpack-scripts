@@ -1,0 +1,41 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "cooldown": 200,
+  "cooldown_resource": "profession:attention_skill_cd",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "profession:researcher/attention_stat",
+    "comparison": ">=",
+    "compare_to": 100
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:set_resource",
+        "resource": "profession:researcher/attention_stat",
+        "value": 0
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "farmersrespite:caffeinated",
+          "duration": 18000,
+          "amplifier": 1
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:haste",
+          "duration": 18000,
+          "amplifier": 0
+        }
+      }
+    ]
+  }
+}

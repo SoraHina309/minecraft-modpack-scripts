@@ -1,0 +1,15 @@
+{
+
+    "type": "origins:resource",
+    "resource": "profession:researcher/attention_mental_energy",
+         "hidden": true,
+    "min": 0,
+    "max": 100,
+    "start_value": 0,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 9
+  }
+
+}

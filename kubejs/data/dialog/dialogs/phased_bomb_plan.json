@@ -1,0 +1,106 @@
+{
+  "id": "phased_bomb_plan",
+  "title": "反物质炸弹计划",
+  "description": "决定是否接受反物质武器任务",
+  "start": "entry1",
+  "entries": [
+    {
+      "id": "entry1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.bombplan.entry.1" },
+   "portraits": [],
+      "next": "entry2"
+    },
+    {
+      "id": "entry2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.bombplan.entry.2" },
+      "next": "entry3"
+    },
+    {
+      "id": "entry3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.bombplan.entry.3" },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.bombplan.entry.4" },
+      "next": "entry5"
+    },
+    {
+      "id": "entry5",
+      "speaker": { "translate": "dialog.agirt.speaker.you" },
+      "text": { "translate": "dialog.bombplan.entry.5" },
+      "options": [
+        {
+          "text": { "translate": "dialog.bombplan.option.a" },
+          "target": "entry6"
+        },
+        {
+          "text": { "translate": "dialog.bombplan.option.b" },
+          "target": "entry6"
+        }
+      ]
+    },
+    {
+      "id": "entry6",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.bombplan.entry.6" },
+      "options": [
+        {
+          "text": { "translate": "dialog.bombplan.option.c" },
+          "target": "entry7"
+        }
+      ]
+    },
+    {
+      "id": "entry7",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.bombplan.entry.7" },
+      "options": [
+        {
+          "text": { "translate": "dialog.bombplan.option.d" },
+          "target": "entry8"
+        }
+      ]
+    },
+    {
+      "id": "entry8",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.bombplan.entry.8" },
+      "next": "entry9"
+    },
+    {
+      "id": "entry9",
+      "speaker": { "translate": "dialog.agirt.speaker.you" },
+      "text": { "translate": "dialog.bombplan.entry.9" },
+      "next": "entry10"
+    },
+    {
+      "id": "entry10",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.bombplan.entry.10" },
+      "next": "entry11"
+    },
+    {
+      "id": "entry11",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.bombplan.entry.11" },
+      "next": "entry12"
+    },
+    {
+      "id": "entry12",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.bombplan.entry.12" },
+      "next": "entry13"
+    },
+    {
+      "id": "entry13",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.bombplan.entry.13" },
+      "endDialog": true
+    }
+  ]
+}

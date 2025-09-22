@@ -1,0 +1,87 @@
+{
+  "id": "agirt_champion10",
+  "title": "冠军容器与象征",
+  "description": "利维坦讲述赋予冠军容器象征的方式",
+  "start": "champion10_1",
+  "entries": [
+    {
+      "id": "champion10_1",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.1" }
+      ],
+      "next": "champion10_2"
+    },
+    {
+      "id": "champion10_2",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.2" }
+      ],
+      "next": "champion10_3"
+    },
+    {
+      "id": "champion10_3",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.3" }
+      ],
+      "next": "champion10_4"
+    },
+    {
+      "id": "champion10_4",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.4" }
+      ],
+      "next": "champion10_5"
+    },
+    {
+      "id": "champion10_5",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.5" }
+      ],
+      "next": "champion10_6"
+    },
+    {
+      "id": "champion10_6",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.6" }
+      ],
+      "next": "champion10_7"
+    },
+    {
+      "id": "champion10_7",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.7" }
+      ],
+      "next": "champion10_8"
+    },
+    {
+      "id": "champion10_8",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.8" }
+      ],
+      "next": "champion10_9"
+    },
+    {
+      "id": "champion10_9",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.9" }
+      ],
+      "next": "champion10_10"
+    },
+    {
+      "id": "champion10_10",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion10.10" }
+      ],      "endDialog": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "lunar.event.start": "%s出现了！",
+  "lunar.event.rain": "由于恶劣天气，%s的影响已被清除！",
+
+  "lunar.event.regular": "常规月相",
+  "lunar.event.blood_moon": "血月",
+  "lunar.event.miner_moon": "矿工之月",
+  "lunar.event.crimson_moon": "猩红之月",
+  "lunar.event.white_moon": "白月",
+  "lunar.event.big_moon": "超级月亮",
+  "lunar.event.tiny_moon": "迷你月",
+  "lunar.event.bad_omen_moon": "恶兆之月",
+  "lunar.event.hero_moon": "英雄之月",
+  "lunar.event.eclipse_moon": "蚀月",
+
+  "text.autoconfig.lunar.title": "月球事件配置",
+  "text.autoconfig.lunar.option.general": "通用设置",
+  "text.autoconfig.lunar.option.general.lunarEventChance": "月相事件概率",
+  "text.autoconfig.lunar.option.events": "事件配置",
+  "text.autoconfig.lunar.option.events.bloodMoonWeight": "血月权重",
+  "text.autoconfig.lunar.option.events.crimsonMoonWeight": "猩红之月权重",
+  "text.autoconfig.lunar.option.events.minerMoonWeight": "矿工之月权重",
+  "text.autoconfig.lunar.option.events.whiteMoonWeight": "白月权重",
+  "text.autoconfig.lunar.option.events.tinyMoonWeight": "迷你月权重",
+  "text.autoconfig.lunar.option.events.bigMoonWeight": "超级月亮权重",
+  "text.autoconfig.lunar.option.events.badOmenMoonWeight": "恶兆之月权重",
+  "text.autoconfig.lunar.option.events.heroMoonWeight": "英雄之月权重",
+  "text.autoconfig.lunar.option.events.eclipseMoonWeight": "蚀月权重",
+  "text.autoconfig.lunar.option.crimson": "猩红设定",
+  "text.autoconfig.lunar.option.events.crimsonReplacements": "猩红替代物"
+}

@@ -1,0 +1,16 @@
+{
+  "icon": {
+    "item": "minecraft:book"
+  },
+  "powers": [
+    "profession:researcher/researcher_attributes",
+    "profession:researcher/starting_item",
+    "profession:researcher/attention_stat",
+    "profession:researcher/mental_skill_trigger",
+    "profession:researcher/mental_energy",
+        "profession:researcher/time_mental_energy",
+    "profession:researcher/attention_skill_trigger"
+  ],
+  "impact": 1,
+  "order": 3
+}

@@ -1,0 +1,575 @@
+{
+  "origin.medievalorigins.alfiq.name": "猫妖（阿尔菲克）",
+  "origin.medievalorigins.alfiq.description": "-§l主要特性§r：\n§o§2+ 徒手攻击加成§r\n§o§2+ 独特移动方式§r\n§o§6• 肉食性§r\n§o§c- 防御薄弱§r\n§l猫妖§r是狡黠的类人猫科生物，拥有利爪和卓越敏捷性。它们的足迹常出现在温暖沙地。",
+
+  "origin.medievalorigins.arachnae.name": "阿拉科涅",
+  "origin.medievalorigins.arachnae.description": "-§l主要特性§r：\n§o§2+ 中毒/群体控制§r\n§o§2+ 攀爬墙壁§r\n§o§6• 肉食性§r\n§o§c- 饥饿加速/护甲限制§r\n蜘蛛与人类的畸形融合体，能直立行走并使用武器，但保留着毒牙和刚毛足。",
+
+  "origin.medievalorigins.banshee.name": "女妖",
+  "origin.medievalorigins.banshee.description": "-§l主要特性§r：\n§o§2+ 飞行/辅助/穿墙§r\n§o§c- 防御薄弱§r\n§o§c- 机制复杂，请先阅读！§r\n§l女妖§r是痛苦的怨灵，其尖啸能震碎玻璃并使人发狂。传说她们的出现预示死亡。",
+
+  "origin.medievalorigins.incubus.name": "魔鬼",
+  "origin.medievalorigins.incubus.description": "-§l主要特性§r：\n§o§2+ 下界优势§r\n§o§6• 火焰亲和§r\n§o§c- 水伤害§r\n§o§c- 主世界虚弱§r\n§l魔鬼§r是黑暗力量的奴仆，在原生领域强大，但代价是灵魂堕落且畏惧纯净之物。",
+
+  "origin.medievalorigins.dwarf.name": "矮人",
+  "origin.medievalorigins.dwarf.description": "-§l主要特性§r：\n§o§2+ 采矿/洞穴适应§r\n§o§6• 身高102cm§r\n§o§c- 畏光/无法游泳§r\n§l矮人§r务实而骄傲，擅长地下生活，但厌恶日光。致敬岩石与钢铁，兄弟！",
+
+  "origin.medievalorigins.wood_elf.name": "木精灵",
+  "origin.medievalorigins.wood_elf.description": "-§l主要特性§r：\n§o§2+ 远程加成/速度§r\n§o§6• 潜行/素食§r\n§o§c- 近战弱势§r\n§l木精灵§r是与自然共生的长寿种族，擅长弓箭与林间战术。",
+
+  "origin.medievalorigins.high_elf.name": "高等精灵",
+  "origin.medievalorigins.high_elf.description": "-§l主要特性§r：\n§o§2+ 魔法/特殊能力§r\n§o§c- 物理弱势§r\n§l高等精灵§r虽傲慢但天赋卓绝，血液中流淌着元素魔力，却拙于武技。",
+
+  "origin.medievalorigins.fae.name": "仙灵",
+  "origin.medievalorigins.fae.description": "-§l主要特性§r：\n§o§2+ 悬浮/魔法§r\n§o§6• 身高122cm§r\n§o§c- 吸引怪物§r\n§l仙灵§r是带翼的魔法生物，作为自然之灵以戏弄旅人著称，兼具神秘与狡黠。",
+
+  "origin.medievalorigins.goblin.name": "哥布林",
+  "origin.medievalorigins.goblin.description": "-§l主要特性§r：\n§o§2+ 金装加成/幸运§r\n§o§6• 身高92cm§r\n§o§c- 生命脆弱§r\n§l哥布林§r痴迷宝藏，总能找到更多战利品，但矮小体型使其易受伤害。",
+
+  "origin.medievalorigins.gorgon.name": "蛇发女妖",
+  "origin.medievalorigins.gorgon.description": "-§l主要特性§r：\n§o§2+ 毒伤/免疫§r\n§o§2+ 群体控制§r\n§o§c- 恐水/特殊弱点§r\n§l蛇发女妖§r是被诅咒的存在，发间蠕动的毒蛇能让直视者化为石像。",
+
+  "origin.medievalorigins.moon_elf.name": "月精灵",
+  "origin.medievalorigins.moon_elf.description": "-§l主要特性§r：\n§o§2+ 匕首专精§r\n§o§6• 潜行/不眠§r\n§o§c- 防御薄弱§r\n神秘的外界来客，其名源于猎物临终前最后所见——那抹月光。",
+
+  "origin.medievalorigins.ogre.name": "食人魔",
+  "origin.medievalorigins.ogre.description": "-§l主要特性§r：\n§o§2+ 巨斧专精§r\n§o§6• 身高268cm§r\n§o§c- 易饿/迟缓§r\n§l食人魔§r是暴躁的巨体型兽人亚种，以蛮力弥补智力的不足。",
+
+  "origin.medievalorigins.pixie.name": "小精灵",
+  "origin.medievalorigins.pixie.description": "-§l主要特性§r：\n§o§2+ 特殊飞行§r\n§o§6• 身高22cm§r\n§o§c- 名声不佳§r\n§l小精灵§r被视为⑨，但也是恶作剧高手。它们娇小得能站在你的掌心。",
+
+  "origin.medievalorigins.plague_victim.name": "瘟疫患者",
+  "origin.medievalorigins.plague_victim.description": "-§l主要特性§r：\n§o§2+ 凋零侵蚀§r\n§o§6• 不死特性§r\n§o§c- 高难度§r\n因魔法瘟疫而半死不活的可悲存在，在永恒痛苦中徘徊。",
+
+  "origin.medievalorigins.revenant.name": "亡魂",
+  "origin.medievalorigins.revenant.description": "-§l主要特性§r：\n§o§2+ 召唤亡灵§r\n§o§6• 不死/复杂机制§r\n§o§c- 社交障碍§r\n§l亡魂§r是经历惨死后莫名复生的怨灵，执着于操纵生死法则。",
+
+  "origin.medievalorigins.siren.name": "海妖",
+  "origin.medievalorigins.siren.description": "-§l主要特性§r：\n§o§2+ 水域优势§r\n§o§6• 陆上虚弱§r\n§o§c- 火焰脆弱§r\n§l海妖§r拥有魅惑气场，其摄人心魄的美貌常令水手走向毁灭。",
+
+  "origin.medievalorigins.troll.name": "山丘巨人",
+  "origin.medievalorigins.troll.description": "-§l主要特性§r：\n§o§c当前未实装§r\n独居的庞然大物，来自群山的原始掠食者。",
+
+  "origin.medievalorigins.yeti.name": "雪人",
+  "origin.medievalorigins.yeti.description": "-§l主要特性§r：\n§o§2+ 冰霜掌控§r\n§o§6• 身高203cm§r\n§o§c- 畏热§r\n§l雪人§r厚毛下的身躯能冻结敌人，但对火焰攻击毫无招架之力。",
+  
+  "power.medievalorigins.alfiq/clawed.name": "利爪",
+  "power.medievalorigins.alfiq/clawed.description": "阿尔菲克拥有可伸缩的锋利爪子：空手时造成额外伤害，并能攀爬陡峭表面（可切换）",
+
+  "power.medievalorigins.alfiq/crepuscular.name": "晨昏习性",
+  "power.medievalorigins.alfiq/crepuscular.description": "在日出日落时分，阿尔菲克会行动更迅捷；其余时间则显得慵懒迟缓",
+
+  "power.medievalorigins.alfiq/on_your_feet.name": "轻盈落地",
+  "power.medievalorigins.alfiq/on_your_feet.description": "从本应受到5颗心以上伤害的高度坠落时，可以完全免伤",
+
+  "power.medievalorigins.alfiq/pickpocket.name": "妙手空空",
+  "power.medievalorigins.alfiq/pickpocket.description": "潜行时右键村民背部有机会偷取绿宝石——也可能被抓现行。据说对玩家也有效...",
+
+  "power.medievalorigins.alfiq/pounce.name": "猛扑",
+  "power.medievalorigins.alfiq/pounce.description": "下蹲蓄力后能向前飞跃，扑击敌人造成额外伤害",
+
+  "power.medievalorigins.alfiq/poor_grip.name": "握力缺陷",
+  "power.medievalorigins.alfiq/poor_grip.description": "使用工具时挖掘速度降低，剑/斧等手持武器伤害减弱",
+
+  "power.medievalorigins.alfiq/agile_preference.name": "灵巧偏好",
+  "power.medievalorigins.alfiq/agile_preference.description": "阿尔菲克偏好轻甲保证灵活性，重甲需附魔才可无惩罚穿戴",
+
+  "power.medievalorigins.alfiq/meow.name": "喵呜",
+  "power.medievalorigins.alfiq/meow.description": "",
+
+  "power.medievalorigins.arachnae/bottomless_stomach.name": "无底胃囊",
+  "power.medievalorigins.arachnae/bottomless_stomach.description": "阿拉科涅需要消耗更多食物维持生存",
+
+  "power.medievalorigins.arachnae/brittle.name": "甲壳限制",
+  "power.medievalorigins.arachnae/brittle.description": "外骨骼使阿拉科涅穿戴铁级以上护甲时会行动困难（可通过附魔消除）",
+
+  "power.medievalorigins.arachnae/climber.name": "攀附者",
+  "power.medievalorigins.arachnae/climber.description": "足部刚毛让阿拉科涅能垂直攀爬墙壁",
+
+  "power.medievalorigins.arachnae/fragile_exoskeleton.name": "脆弱甲壳",
+  "power.medievalorigins.arachnae/fragile_exoskeleton.description": "外骨骼防御薄弱，生命值低于普通人类",
+
+  "power.medievalorigins.arachnae/many_eyes.name": "复眼视觉",
+  "power.medievalorigins.arachnae/many_eyes.description": "八只眼睛赋予阿拉科涅极强的夜视能力",
+
+  "power.medievalorigins.arachnae/venomous_bite.name": "毒牙",
+  "power.medievalorigins.arachnae/venomous_bite.description": "攻击时有概率使目标中毒",
+
+  "power.medievalorigins.arachnae/web_slinger.name": "喷网",
+  "power.medievalorigins.arachnae/web_slinger.description": "可喷射蛛网短暂禁锢敌人",
+
+  "power.medievalorigins.banshee/spectral.name": "灵体化",
+  "power.medievalorigins.banshee/spectral.description": "女妖可虚化穿越物质界（但无法交互），饥饿值过低时无法使用",
+
+  "power.medievalorigins.banshee/hexed.name": "死咒",
+  "power.medievalorigins.banshee/hexed.description": "被攻击时有概率对攻击者施加缓慢死亡的诅咒",
+
+  "power.medievalorigins.banshee/immaterial.name": "虚无体质",
+  "power.medievalorigins.banshee/immaterial.description": "生命值仅有常人的一半",
+
+  "power.medievalorigins.banshee/dimeritium_shackles.name": "畏铁症",
+  "power.medievalorigins.banshee/dimeritium_shackles.description": "接触铁/银等抑魔金属会受到严重伤害",
+
+  "power.medievalorigins.banshee/lunar_nexus.name": "月之纽带",
+  "power.medievalorigins.banshee/lunar_nexus.description": "无法从食物获取饱食度，只能通过月光恢复能量（但不会饿死）",
+
+  "power.medievalorigins.banshee/sonic_shriek.name": "挽歌尖啸",
+  "power.medievalorigins.banshee/sonic_shriek.description": "发出震退周围生物的尖啸，形成防护圈并眩晕直击目标",
+
+  "power.medievalorigins.banshee/cursed_sigil.name": "诅咒印记",
+  "power.medievalorigins.banshee/cursed_sigil.description": "使用诅咒武器时造成额外伤害",
+
+  "power.medievalorigins.banshee/cursed_ward.name": "诅咒护甲",
+  "power.medievalorigins.banshee/cursed_ward.description": "每件诅咒护甲都会提供额外伤害抗性",
+
+  "power.medievalorigins.incubus/carnivore.name": "肉食者",
+  "power.medievalorigins.incubus/carnivore.description": "魔鬼只接受肉类食物，植物毫无营养",
+
+  "power.medievalorigins.incubus/demon_fire.name": "恶魔之火",
+  "power.medievalorigins.incubus/demon_fire.description": "所有火焰魔法效果增强，并能主动释放火焰冲击（受火焰法术强度加成）",
+
+  "power.medievalorigins.incubus/hellborne.name": "地狱血脉",
+  "power.medievalorigins.incubus/hellborne.description": "火焰如同家园——不会伤害魔鬼反而能补充能量",
+
+  "power.medievalorigins.incubus/hydrophobe.name": "恐水症",
+  "power.medievalorigins.incubus/hydrophobe.description": "接触水会使魔鬼受到灼伤",
+
+  "power.medievalorigins.incubus/impure.name": "污秽之躯",
+  "power.medievalorigins.incubus/impure.description": "受到『惩戒』法术额外伤害，治疗与伤害药水效果逆转",
+
+  "power.medievalorigins.incubus/dimension_strength.name": "位面适应",
+  "power.medievalorigins.incubus/dimension_strength.description": "魔鬼在下界显著增强，但在阳光照耀的主世界会变得虚弱",
+
+  "power.medievalorigins.incubus/unholy_deal.name": "邪魔契约",
+  "power.medievalorigins.incubus/unholy_deal.description": "消耗生命值换取短时间爆发力量（使用主技能键触发）",
+
+  "power.medievalorigins.dwarf/darkness_dweller.name": "穴居者",
+  "power.medievalorigins.dwarf/darkness_dweller.description": "阳光直射会暂时致盲矮人（可通过金头盔或附魔避免）",
+
+  "power.medievalorigins.dwarf/dense.name": "敦实身躯",
+  "power.medievalorigins.dwarf/dense.description": "矮人密度极高，在水中会快速下沉",
+
+  "power.medievalorigins.dwarf/dwarven_tech.name": "矮人工艺",
+  "power.medievalorigins.dwarf/dwarven_tech.description": "无需镐子即可挖掘石头，且所有挖掘速度更快",
+
+  "power.medievalorigins.dwarf/miniature.name": "矮壮体型",
+  "power.medievalorigins.dwarf/miniature.description": "身高仅1米（但宽度堪比身高），可钻进矮小隧道",
+
+  "power.medievalorigins.dwarf/mythril_resonance.name": "秘银共鸣",
+  "power.medievalorigins.dwarf/mythril_resonance.description": "传承种族精神的特殊金属能激发矮人潜能",
+
+  "power.medievalorigins.dwarf/nocturnal_eyes.name": "夜视之瞳",
+  "power.medievalorigins.dwarf/nocturnal_eyes.description": "无需光源也能清晰视物",
+
+  "power.medievalorigins.dwarf/potent_brew.name": "烈酒豪饮",
+  "power.medievalorigins.dwarf/potent_brew.description": "饮用自酿烈酒可瞬间恢复全部生命值（足以醉倒两倍体型的生物）",
+
+  "power.medievalorigins.human/description.name": "人类特质",
+  "power.medievalorigins.human/description.description": "人类与基础游戏设定完全一致",
+
+  "power.medievalorigins.wood_elf/archer.name": "神射手",
+  "power.medievalorigins.wood_elf/archer.description": "木精灵终生修习箭术，箭矢总是更加致命",
+
+  "power.medievalorigins.wood_elf/forest_vision.name": "森林视觉",
+  "power.medievalorigins.wood_elf/forest_vision.description": "在灌木或树叶中潜行可获得夜视能力且不被怪物察觉",
+
+  "power.medievalorigins.wood_elf/eagle_eyed.name": "鹰眼锁定",
+  "power.medievalorigins.wood_elf/eagle_eyed.description": "伤害敌人后短时间内可透视追踪其位置",
+
+  "power.medievalorigins.wood_elf/empowered_shot.name": "蓄力射击",
+  "power.medievalorigins.wood_elf/empowered_shot.description": "蓄力后射出穿透性箭矢（射程/伤害提升）",
+
+  "power.medievalorigins.wood_elf/empowered_shot_zenith.name": "蓄力射击",
+  "power.medievalorigins.wood_elf/empowered_shot_zenith.description": "蓄力后射出穿透性箭矢（射程/伤害提升）",
+
+  "power.medievalorigins.wood_elf/empowered_shot_apotheosis.name": "蓄力射击",
+  "power.medievalorigins.wood_elf/empowered_shot_apotheosis.description": "蓄力后射出穿透性箭矢（射程/伤害提升）",
+
+  "power.medievalorigins.wood_elf/elegant.name": "优雅体质",
+  "power.medievalorigins.wood_elf/elegant.description": "重甲会减缓木精灵速度（可通过附魔消除），且生命值较低",
+
+  "power.medievalorigins.wood_elf/steward.name": "森林之子",
+  "power.medievalorigins.wood_elf/steward.description": "木精灵与森林共生，无法消化肉类食物",
+
+  "power.medievalorigins.wood_elf/towering.name": "修长身形",
+  "power.medievalorigins.wood_elf/towering.description": "比普通人类稍高",
+
+  "power.medievalorigins.wood_elf/graceful.name": "灵巧攻势",
+  "power.medievalorigins.wood_elf/graceful.description": "攻击速度提升但单次伤害降低",
+
+  "power.medievalorigins.fae/allure.name": "魅惑光环",
+  "power.medievalorigins.fae/allure.description": "仙灵会吸引更远距离的怪物主动追击",
+
+  "power.medievalorigins.fae/diminutive.name": "玲珑体态",
+  "power.medievalorigins.fae/diminutive.description": "身高仅略高于哥布林",
+
+  "power.medievalorigins.fae/iron_aversion.name": "魔力抑制",
+  "power.medievalorigins.fae/iron_aversion.description": "铁/银制品会压制仙灵力量，穿戴时痛苦难忍",
+
+  "power.medievalorigins.fae/levitation.name": "灵翼悬浮",
+  "power.medievalorigins.fae/levitation.description": "拍打翅膀实现空中悬浮（使用主技能键上升）",
+
+  "power.medievalorigins.fae/magic_resistance.name": "魔法抗性",
+  "power.medievalorigins.fae/magic_resistance.description": "作为魔法生物，仙灵受到的法术伤害更低",
+
+  "power.medievalorigins.fae/regen.name": "魔力愈疗",
+  "power.medievalorigins.fae/regen.description": "消耗饱食度快速恢复生命值",
+
+  "power.medievalorigins.goblin/cunning.name": "狡诈天性",
+  "power.medievalorigins.goblin/cunning.description": "哥布林总能发现被他人忽略的稀有战利品",
+
+  "power.medievalorigins.goblin/frail.name": "脆弱躯体",
+  "power.medievalorigins.goblin/frail.description": "矮小体型导致生命值较低且易受伤害",
+
+  "power.medievalorigins.goblin/greedy.name": "黄金狂热",
+  "power.medievalorigins.goblin/greedy.description": "使用金质装备时获得额外加成",
+
+  "power.medievalorigins.goblin/durability.name": "精打细算",
+  "power.medievalorigins.goblin/durability.description": "金质装备在哥布林手中耐久损耗更慢",
+
+  "power.medievalorigins.goblin/nippy.name": "敏捷步伐",
+  "power.medievalorigins.goblin/nippy.description": "虽然矮小但移动迅捷，擅长逃离战斗",
+
+  "power.medievalorigins.goblin/stunted.name": "侏儒体型",
+  "power.medievalorigins.goblin/stunted.description": "身高不足人类的一半",
+
+  "power.medievalorigins.gorgon/hydrophobe.name": "净水灼伤",
+  "power.medievalorigins.gorgon/hydrophobe.description": "接触纯净水会受到伤害",
+
+  "power.medievalorigins.gorgon/to_stone.name": "日光石化",
+  "power.medievalorigins.gorgon/to_stone.description": "白天在户外会逐渐化为石像（佩戴头盔可避免）",
+
+  "power.medievalorigins.gorgon/silver_aversion.name": "厌银症",
+  "power.medievalorigins.gorgon/silver_aversion.description": "银制品会造成伤害（铁制品同样生效）",
+
+  "power.medievalorigins.gorgon/petrifying_gaze.name": "石化凝视",
+  "power.medievalorigins.gorgon/petrifying_gaze.description": "与正前方的生物对视可将其暂时石化（对Boss无效）",
+
+  "power.medievalorigins.gorgon/poison_blood.name": "毒血",
+  "power.medievalorigins.gorgon/poison_blood.description": "免疫中毒，受击时有概率使周围敌人中毒",
+
+  "power.medievalorigins.gorgon/revenge.name": "复仇之怒",
+  "power.medievalorigins.gorgon/revenge.description": "生命值越低造成伤害越高",
+
+  "power.medievalorigins.high_elf/elegant.name": "优雅体质",
+  "power.medievalorigins.high_elf/elegant.description": "重甲会减缓高等精灵速度（可通过附魔消除），且生命值较低",
+
+  "power.medievalorigins.high_elf/ebonbreath.name": "元素汲取",
+  "power.medievalorigins.high_elf/ebonbreath.description": "持握不同物品可释放对应属性的魔法（悬停查看详情）",
+
+  "power.medievalorigins.high_elf/fragile.name": "纤弱身躯",
+  "power.medievalorigins.high_elf/fragile.description": "物理抗性低下且生命值较少",
+
+  "power.medievalorigins.high_elf/mystic_affinity.name": "奥术亲和",
+  "power.medievalorigins.high_elf/mystic_affinity.description": "造成更多法术伤害且受到的法术伤害降低",
+
+  "power.medievalorigins.high_elf/mana_rpgmana.name": "高等血统",
+  "power.medievalorigins.high_elf/mana_rpgmana.description": "高等精灵天生拥有更多法力值，并能引导先祖之力快速恢复魔力",
+
+  "power.medievalorigins.high_elf/mana_irons.name": "高等血统",
+  "power.medievalorigins.high_elf/mana_irons.description": "高等精灵天生拥有更多法力值，并能引导先祖之力快速恢复魔力",
+
+  "power.medievalorigins.high_elf/mana_ars.name": "高等血统",
+  "power.medievalorigins.high_elf/mana_ars.description": "高等精灵天生拥有更多法力值，并能引导先祖之力快速恢复魔力",
+
+  "power.medievalorigins.high_elf/mana_irons_ars.name": "高等血统",
+  "power.medievalorigins.high_elf/mana_irons_ars.description": "高等精灵天生拥有更多法力值，并能引导先祖之力快速恢复魔力",
+
+  "power.medievalorigins.high_elf/towering.name": "颀长身姿",
+  "power.medievalorigins.high_elf/towering.description": "高等精灵身形修长，比普通人类略高",
+
+  "power.medievalorigins.moon_elf/crazed.name": "异界体质",
+  "power.medievalorigins.moon_elf/crazed.description": "月精灵在主世界永远无法入睡",
+
+  "power.medievalorigins.moon_elf/stealth.name": "暗影行者",
+  "power.medievalorigins.moon_elf/stealth.description": "黑暗中潜行可隐身，首次攻击造成额外伤害（匕首加成更高）",
+
+  "power.medievalorigins.moon_elf/elegant.name": "优雅之躯",
+  "power.medievalorigins.moon_elf/elegant.description": "重甲会减缓移动速度（可通过附魔消除）",
+
+  "power.medievalorigins.moon_elf/ethereal.name": "空灵之相",
+  "power.medievalorigins.moon_elf/ethereal.description": "半透明的身躯泛着奇异蓝光",
+
+  "power.medievalorigins.moon_elf/fragile.name": "脆弱本质",
+  "power.medievalorigins.moon_elf/fragile.description": "生命值较低且受到物理伤害增加",
+  
+  "power.medievalorigins.moon_elf/moonlight_rogue.name": "月下刺客",
+  "power.medievalorigins.moon_elf/moonlight_rogue.description": "使用匕首等轻型武器时造成更多伤害",
+
+  "power.medievalorigins.moon_elf/nimble.name": "灵巧闪避",
+  "power.medievalorigins.moon_elf/nimble.description": "有小概率完全闪避攻击",
+
+  "power.medievalorigins.moon_elf/towering.name": "颀长身姿",
+  "power.medievalorigins.moon_elf/towering.description": "身高与森林近亲相仿，比人类略高",
+
+  "power.medievalorigins.ogre/gargantuan.name": "庞然巨物",
+  "power.medievalorigins.ogre/gargantuan.description": "食人魔体型过大，无法通过常规门洞",
+
+  "power.medievalorigins.ogre/lead_belly.name": "铁胃",
+  "power.medievalorigins.ogre/lead_belly.description": "可消化任何食物，免疫中毒与饥饿",
+
+  "power.medievalorigins.ogre/ravenous.name": "饕餮之欲",
+  "power.medievalorigins.ogre/ravenous.description": "需要持续进食才能维持饱腹感",
+
+  "power.medievalorigins.ogre/ravager.name": "毁灭者",
+  "power.medievalorigins.ogre/ravager.description": "战斧在食人魔手中能发挥惊人威力",
+
+  "power.medievalorigins.ogre/bloodlust.name": "血怒",
+  "power.medievalorigins.ogre/bloodlust.description": "会随机陷入狂暴状态，大幅提升战斗力但降低视野清晰度",
+
+  "power.medievalorigins.ogre/sluggish.name": "迟缓",
+  "power.medievalorigins.ogre/sluggish.description": "为节省体力而行动缓慢",
+
+  "power.medievalorigins.ogre/stocky.name": "敦实",
+  "power.medievalorigins.ogre/stocky.description": "厚实的皮肤与骨骼提供额外伤害抗性",
+
+  "power.medievalorigins.pixie/curse_of_flight.name": "飞行诅咒",
+  "power.medievalorigins.pixie/curse_of_flight.description": "无法穿戴皮革以上的胸甲，也不能使用其他翅膀飞行",
+
+  "power.medievalorigins.pixie/feather_footed.name": "羽足",
+  "power.medievalorigins.pixie/feather_footed.description": "体重过轻，完全免疫跌落伤害",
+
+  "power.medievalorigins.pixie/flight.name": "尘翼翱翔",
+  "power.medievalorigins.pixie/flight.description": "可自由飞行（查看右侧说明框了解操作方式）",
+
+  "power.medievalorigins.pixie/mount.name": "搭便车",
+  "power.medievalorigins.pixie/mount.description": "空手右键其他玩家可坐在其头顶",
+
+  "power.medievalorigins.pixie/good_fortunes.name": "幸运眷顾",
+  "power.medievalorigins.pixie/good_fortunes.description": "采矿时偶尔能从普通石块中获得珍贵物品",
+
+  "power.medievalorigins.pixie/mischief_maketh_man.name": "顽皮天性",
+  "power.medievalorigins.pixie/mischief_maketh_man.description": "能制造各种恶作剧效果（通常伴随巨大声响）",
+
+  "power.medievalorigins.pixie/pixie_properties.name": "袖珍体型",
+  "power.medievalorigins.pixie/pixie_properties.description": "身高通常不及人类膝盖",
+
+  "power.medievalorigins.pixie/soaked.name": "惧水",
+  "power.medievalorigins.pixie/soaked.description": "遇水会导致移动和飞行能力大幅下降",
+
+  "power.medievalorigins.pixie/troublemaker.name": "⑨",
+  "power.medievalorigins.pixie/troublemaker.description": "村民因小精灵是⑨而拒绝与小精灵交易",
+
+    "power.medievalorigins.plague_victim/contagious.name": "瘟疫传染",
+  "power.medievalorigins.plague_victim/contagious.description": "村民因恐惧拒绝与瘟疫患者交易",
+
+  "power.medievalorigins.plague_victim/foul_aura.name": "腐化领域",
+  "power.medievalorigins.plague_victim/foul_aura.description": "散发恐怖魔法力场，缓慢侵蚀周围生物的生命",
+
+  "power.medievalorigins.plague_victim/insomniac.name": "永恒痛楚",
+  "power.medievalorigins.plague_victim/insomniac.description": "无尽的痛苦使瘟疫患者永远无法入睡",
+
+  "power.medievalorigins.plague_victim/plague_immunity.name": "瘟疫免疫",
+  "power.medievalorigins.plague_victim/plague_immunity.description": "对毒药与凋零效果免疫，但持续承受痛苦",
+
+  "power.medievalorigins.plague_victim/eternal_suffering.name": "永恒折磨",
+  "power.medievalorigins.plague_victim/eternal_suffering.description": "每5分钟首次死亡时会强制复活继续承受痛苦",
+
+  "power.medievalorigins.plague_victim/risk_of_transmission.name": "瘟疫诅咒",
+  "power.medievalorigins.plague_victim/risk_of_transmission.description": "攻击时有概率传播瘟疫",
+
+  "power.medievalorigins.plague_victim/sensitive_skin.name": "溃烂皮肤",
+  "power.medievalorigins.plague_victim/sensitive_skin.description": "全身布满溃烂伤口，无法穿戴护甲",
+
+  "power.medievalorigins.plague_victim/skin_and_bones.name": "形销骨立",
+  "power.medievalorigins.plague_victim/skin_and_bones.description": "疾病侵蚀导致生命值与移动速度降低",
+
+  "power.medievalorigins.siren/amphibious.name": "两栖之躯",
+  "power.medievalorigins.siren/amphibious.description": "在水中获得完美视野、呼吸能力与游泳加速",
+
+  "power.medievalorigins.siren/flammable.name": "易燃体质",
+  "power.medievalorigins.siren/flammable.description": "接触火焰会立即死亡",
+
+  "power.medievalorigins.siren/holy_water.name": "圣水滋养",
+  "power.medievalorigins.siren/holy_water.description": "完全浸入水中时获得快速生命恢复",
+
+  "power.medievalorigins.siren/out_of_your_depth.name": "离水之困",
+  "power.medievalorigins.siren/out_of_your_depth.description": "在陆地上只能通过药水恢复生命",
+
+  "power.medievalorigins.siren/siren_song.name": "海妖之歌",
+  "power.medievalorigins.siren/siren_song.description": "激活后大范围迷惑敌人使其暂时无法攻击（对Boss和玩家无效）",
+
+  "power.medievalorigins.siren/seduce.name": "魅惑交易",
+  "power.medievalorigins.siren/seduce.description": "使用副技能键获取村民好感以获得更优惠交易",
+
+  "power.medievalorigins.troll/apex_predator.name": "顶级掠食者",
+  "power.medievalorigins.troll/apex_predator.description": "只能通过杀戮其他生物获取饱食度",
+
+  "power.medievalorigins.troll/ham_fisted.name": "巨拳限制",
+  "power.medievalorigins.troll/ham_fisted.description": "无法使用盾牌但徒手攻击威力巨大",
+
+  "power.medievalorigins.troll/ironhide.name": "钢铁皮肤",
+  "power.medievalorigins.troll/ironhide.description": "厚实的皮肤提供额外护甲值与生命值",
+
+  "power.medievalorigins.troll/lumbering.name": "笨拙身躯",
+  "power.medievalorigins.troll/lumbering.description": "体型过大导致移动速度显著降低",
+
+  "power.medievalorigins.troll/mountainous.name": "山岳之躯",
+  "power.medievalorigins.troll/mountainous.description": "身高达到普通人类的两倍",
+
+  "power.medievalorigins.troll/old_blood.name": "古老血脉",
+  "power.medievalorigins.troll/old_blood.description": "只能在山地生物群系自然恢复生命",
+
+  "power.medievalorigins.troll/out_of_stock.name": "无甲可穿",
+  "power.medievalorigins.troll/out_of_stock.description": "无法穿戴任何护甲",
+
+  "power.medievalorigins.troll/rock_throw.name": "巨石投掷",
+  "power.medievalorigins.troll/rock_throw.description": "消耗64个圆石投掷具有贯穿效果的巨石",
+
+  "power.medievalorigins.troll/thunderous_stride.name": "雷霆步伐",
+  "power.medievalorigins.troll/thunderous_stride.description": "持续移动可撞碎前方障碍物",
+
+  "power.medievalorigins.yeti/flammable.name": "畏火体质",
+  "power.medievalorigins.yeti/flammable.description": "冰雪特性导致火焰伤害增加",
+
+  "power.medievalorigins.yeti/frigid_pulse.name": "极寒脉冲",
+  "power.medievalorigins.yeti/frigid_pulse.description": "将附近敌人冻结在冰柱中（下界与Boss无效）",
+
+  "power.medievalorigins.yeti/from_whence_you_came.name": "雪原归乡",
+  "power.medievalorigins.yeti/from_whence_you_came.description": "在冰雪生物群系获得移动加速与跌落免疫",
+
+  "power.medievalorigins.yeti/frosty_breath.name": "霜息",
+  "power.medievalorigins.yeti/frosty_breath.description": "靠近的敌人会被减速",
+
+  "power.medievalorigins.yeti/thick_fur.name": "厚毛诅咒",
+  "power.medievalorigins.yeti/thick_fur.description": "在沙漠中移动速度与生命值降低",
+
+  "power.medievalorigins.yeti/titanic.name": "泰坦之躯",
+  "power.medievalorigins.yeti/titanic.description": "生命值远超普通人类",
+
+  "power.medievalorigins.yeti/unstoppable.name": "势不可挡",
+  "power.medievalorigins.yeti/unstoppable.description": "免疫缓慢效果",
+
+  "power.medievalorigins.yeti/winter_body.name": "冬神之躯",
+  "power.medievalorigins.yeti/winter_body.description": "体型比人类更高大魁梧",
+
+  "power.medievalorigins.revenant/black_thumb.name": "死亡之触",
+  "power.medievalorigins.revenant/black_thumb.description": "接触作物会使其立即枯萎",
+
+  "power.medievalorigins.revenant/disturbed.name": "惊魂不定",
+  "power.medievalorigins.revenant/disturbed.description": "因恐惧知晓的禁忌知识而无法入睡",
+
+  "power.medievalorigins.revenant/hellraiser.name": "死灵护阵",
+  "power.medievalorigins.revenant/hellraiser.description": "召唤骷髅圆阵防御并伤害附近敌人",
+
+  "power.medievalorigins.revenant/putrid_communion.name": "腐化圣餐",
+  "power.medievalorigins.revenant/putrid_communion.description": "吞噬不死生物残骸可强化下次同类型召唤物",
+
+  "power.medievalorigins.revenant/unwitherable.name": "凋零诅咒",
+  "power.medievalorigins.revenant/unwitherable.description": "免疫凋零但受『惩戒』额外伤害，治疗与伤害药水效果逆转",
+
+  "power.medievalorigins.revenant/skeleton_summons.name": "亡灵复苏",
+  "power.medievalorigins.revenant/skeleton_summons.description": "持特定材料可召唤不同亡灵仆从：\n§l普通骷髅§r\n- 主手：4骨头\n§l骷髅马§r\n- 主手：12骨头\n- 副手：1鞍\n§l凋零骷髅§r\n- 主手：12骨头\n- 副手：1凋零骷髅头\n§l僵尸§r\n- 主手：4腐肉\n§l僵尸马§r\n- 主手：12腐肉\n- 副手：1鞍\n仆从强度受灵魂/鲜血法术强度影响",
+
+  "power.medievalorigins.revenant/poor_reputation.name": "恶名昭著",
+  "power.medievalorigins.revenant/poor_reputation.description": "村民拒绝交易且铁傀儡会主动攻击，但能被掠夺者接纳",
+
+  "power.medievalorigins.revenant/siphon.name": "生命汲取",
+  "power.medievalorigins.revenant/siphon.description": "受击积累能量后可吸取敌人生命（对召唤亡灵无效）",
+
+  "power.medievalorigins.revenant/unguarded.name": "门户大开",
+  "power.medievalorigins.revenant/unguarded.description": "沉迷灵魂研究导致物理抗性降低",
+
+  "origin.medievalorigins.valkyrie.name": "女武神",
+  "origin.medievalorigins.valkyrie.description": "-§l主要特性§r：\n§o§2+ 治疗能力§r\n§o§6• 羽翼飞行§r\n§o§c- 亡灵克星§r\n北欧神话中的战女神，背负英灵前往瓦尔哈拉",
+
+  "power.medievalorigins.valkyrie/wings.name": "神圣羽翼",
+  "power.medievalorigins.valkyrie/wings.description": "拥有洁白的巨大羽翼可自由飞翔",
+
+  "power.medievalorigins.valkyrie/intervention.name": "神圣干预",
+  "power.medievalorigins.valkyrie/intervention.description": "空中冲刺或地面跃起获得跌落免疫\n落地时释放圣光治疗盟友并清除负面效果（受治疗/神圣法术强度加成）",
+
+  "power.medievalorigins.valkyrie/divine_smite.name": "天罚",
+  "power.medievalorigins.valkyrie/divine_smite.description": "每第三次攻击触发范围圣光打击（受治疗/神圣法术强度加成）",
+
+  "power.medievalorigins.valkyrie/corruption.name": "亡灵侵蚀",
+  "power.medievalorigins.valkyrie/corruption.description": "附近亡灵会削弱女武神并造成额外伤害",
+
+  "power.medievalorigins.valkyrie/vanquisher.name": "亡灵克星",
+  "power.medievalorigins.valkyrie/vanquisher.description": "击杀亡灵可触发§n天罚§r并暂时减弱§n亡灵侵蚀§r效果（死亡损失半数层数）",
+
+  "power.medievalorigins.valkyrie/heavenly_implements.name": "天界武装",
+  "power.medievalorigins.valkyrie/heavenly_implements.description": "提升治疗/神圣法术强度，长枪类武器造成额外伤害",
+
+  "enchantment.medievalorigins.featherweight": "轻若鸿毛",
+  "enchantment.medievalorigins.featherweight.desc": "使重甲不再减缓蛛魔、精灵、猫妖或有翼种族的移动速度",
+
+  "enchantment.medievalorigins.mirroring": "镜反",
+  "enchantment.medievalorigins.mirroring.desc": "头盔附魔后免疫蛇发女妖的石化凝视，并解除矮人的日光致盲",
+
+  "sounds.medievalorigins.banshee_cry": "女妖哀嚎",
+  "sounds.medievalorigins.channeled_wail": "引导尖啸",
+  "sounds.medievalorigins.horrible_screech": "恐怖嘶鸣",
+  "sounds.medievalorigins.zhh_voo_woop": "虚空异响",
+  "sounds.medievalorigins.bone_crunch": "骨骼碎裂",
+  "sounds.medievalorigins.dash": "精灵冲刺",
+  "sounds.medievalorigins.boost": "弦乐琶音",
+  "sounds.medievalorigins.hover": "悬浮嗡鸣",
+  "sounds.medievalorigins.jump": "轻盈铃音",
+  "sounds.medievalorigins.sirens_song": "塞壬之歌",
+
+  "entity.medievalorigins.summon_zombie": "召唤者的僵尸",
+  "entity.medievalorigins.summon_skeleton": "召唤者的骷髅",
+  "entity.medievalorigins.summon_wither_skeleton": "召唤者的凋零骷髅",
+
+  "badges.medievalorigins.pixie.jump": "小精灵可跳跃2格高，飞行会消耗§b飞行能量(FP)§r\n\n§bFP§r仅在地面时恢复",
+  "badges.medievalorigins.pixie.glide": "滑翔 - 空中按%s展开双翼缓降\n\n不消耗§bFP§r",
+  "badges.medievalorigins.pixie.hover": "悬停 - 快速按%s两次开启悬浮模式\n\n持续消耗§bFP§r，耗尽时坠落",
+  "badges.medievalorigins.pixie.dash_forward": "冲刺 - 快速按%s两次向前突进\n\n滑翔时消耗50§bFP§r，否则消耗25§bFP§r",
+  "badges.medievalorigins.pixie.dash_upward": "升空冲刺 - 快速按%s接%s向上突进\n\n滑翔时消耗50§bFP§r，否则消耗25§bFP§r",
+  "badges.medievalorigins.pixie.disable_effects": "潜行时按%s关闭音效与粒子效果",
+
+  "badges.medievalorigins.high_elf.glacial_step": "§b寒冰步法§r：手持冰块可操控水分子熵值，获得霜行者效果",
+  "badges.medievalorigins.high_elf.extrusive_movement": "§4熔岩漫步§r：手持黑曜石可疏导热量，在熔岩表面自由行走",
+  "badges.medievalorigins.high_elf.instant_cure": "§e瞬间治愈§r：用金苹果右键村民可直接治愈无需削弱",
+  "badges.medievalorigins.high_elf.void_warp": "§5虚空跃迁§r：手持末影珍珠时按%s可撕裂现实进行50格内瞬移",
+  "badges.medievalorigins.high_elf.blazenbreath": "§c炽焰吐息§r：手持煤炭按%s释放弱效火焰锥\n手持烈焰粉释放中效火焰锥（受火焰法术强度加成）",
+  "badges.medievalorigins.high_elf.ebonbreath": "§d黯焰吐息§r：手持龙息药水按%s释放强效魔法火焰锥（受火焰与奥术/末影法术强度加成）",
+
+  "badges.medievalorigins.revenant.siphon": "攻击生物可吸取生命（伤害受灵魂/鲜血法术强度加成）",
+  "badges.medievalorigins.revenant.eat": "食用怪物头颅能快速充能",
+
+  "badges.medievalorigins.alfiq.wall_climb": "按%s切换攀墙模式",
+
+  "medievalorigins.contagious_villager": "村民因恐惧拒绝交易！",
+  "medievalorigins.disturbed_restless": "知晓禁忌知识者终将癫狂而亡",
+  "medievalorigins.moon_elf_no_sleep": "异界的诡异声响让你无法入眠",
+  "medievalorigins.insomniac_welts": "溃烂的伤口灼痛难忍，今夜无眠",
+  "medievalorigins.poor_reputation_villager": "村民因你的恶名拒绝交易！",
+  "medievalorigins.troublemaker": "村民不与麻烦精交易！",
+  "medievalorigins.uncastable": "当前无法使用此能力",
+
+  "tooltip.medievalorigins.set_bonus": "套装效果：",
+  "tooltip.medievalorigins.water_protection": "水中防护",
+  "tooltip.medievalorigins.looting_bonus": "提升战利品掉落率",
+  "tooltip.medievalorigins.unwearable": "不可穿戴",
+  "tooltip.medievalorigins.damage_dealt": "+%s 造成伤害",
+  "tooltip.medievalorigins.attack_damage_bonus": "+%s 攻击伤害",
+  "tooltip.medievalorigins.stab_bonus": "潜行暴击加成",
+  "tooltip.medievalorigins.self_wither": "持有时获得凋零效果",
+  "tooltip.medievalorigins.restores_no_hunger": "不恢复饱食度",
+  "tooltip.medievalorigins.moonlight_rogue": "月下刺客：",
+  "tooltip.medievalorigins.heavenly_implements": "天界武装：",
+  "tooltip.medievalorigins.greedy": "黄金狂热：",
+  "tooltip.medievalorigins.ravager": "毁灭者：",
+
+  "layer.medievalorigins.magic_subclasses.name": "魔法专精",
+  
+  "origin.medievalorigins.high_elf/arcanist.name": "奥术师",
+  "origin.medievalorigins.high_elf/arcanist.description": "高等精灵天生擅长某种元素魔法\n\n痴迷研究神秘知识的学者\n\n+1 奥术法术强度",
+  "power.medievalorigins.high_elf/arcanist/gear_spawn.name": "初始装备：",
+  "power.medievalorigins.high_elf/arcanist/gear_spawn.description": "- 奥术法杖\n- 16个奥术符文",
+
+  "origin.medievalorigins.high_elf/pyromancer.name": "烈焰使",
+  "origin.medievalorigins.high_elf/pyromancer.description": "以焚毁万物为乐的狂徒\n\n+1 火焰法术强度",
+  "power.medievalorigins.high_elf/pyromancer/gear_spawn.name": "初始装备：",
+  "power.medievalorigins.high_elf/pyromancer/gear_spawn.description": "- 火焰法杖\n- 16个火焰符文",
+
+  "origin.medievalorigins.high_elf/cryomancer.name": "霜语者", 
+  "origin.medievalorigins.high_elf/cryomancer.description": "冷静睿智的战略大师\n\n+1 寒冰法术强度",
+  "power.medievalorigins.high_elf/cryomancer/gear_spawn.name": "初始装备：",
+  "power.medievalorigins.high_elf/cryomancer/gear_spawn.description": "- 霜冻法杖\n- 16个寒冰符文",
+  
+  "death.attack.siphon.player": "%s的灵魂被%s撕碎",
+  "death.attack.smite.player": "%s被%s天罚轰杀"
+}

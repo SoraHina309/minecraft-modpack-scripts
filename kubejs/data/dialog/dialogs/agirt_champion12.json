@@ -1,0 +1,63 @@
+{
+  "id": "agirt_champion12",
+  "title": "利维坦身份确认",
+  "description": "总部确认利维坦身份并下达新任务",
+  "start": "champion12_1",
+  "entries": [
+    {
+      "id": "champion12_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion12.1" }
+      ],
+      "next": "champion12_2"
+    },
+    {
+      "id": "champion12_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion12.2" }
+      ],
+      "next": "champion12_3"
+    },
+    {
+      "id": "champion12_3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion12.3" }
+      ],
+      "next": "champion12_4"
+    },
+    {
+      "id": "champion12_4",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion12.4" }
+      ],
+      "next": "champion12_5"
+    },
+    {
+      "id": "champion12_5",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion12.5" }
+      ],
+      "next": "champion12_6"
+    },
+    {
+      "id": "champion12_6",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion12.6" }
+      ],
+      "next": "champion12_7"
+    },
+    {
+      "id": "champion12_7",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion12.7" }
+      ],      "endDialog": true
+    }
+  ]
+}

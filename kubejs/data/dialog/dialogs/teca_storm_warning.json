@@ -1,0 +1,71 @@
+{
+  "id": "teca_storm_warning",
+  "title": "风暴警告",
+  "start": "entry1",
+  "entries": [
+    {
+      "id": "entry1",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.teca_storm_warning.entry.1"
+      },
+   "portraits": [],
+      "next": "entry2"
+    },
+    {
+      "id": "entry2",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.teca_storm_warning.entry.2"
+      },
+      "options": [
+        {
+          "text": {
+            "translate": "dialog.teca_storm_warning.option.a"
+          },
+          "target": "entry3"
+        },
+        {
+          "text": {
+            "translate": "dialog.teca_storm_warning.option.b"
+          },
+          "target": "entry3"
+        }
+      ]
+    },
+    {
+      "id": "entry3",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.teca_storm_warning.entry.3"
+      },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.teca_storm_warning.entry.4"
+      },
+      "next": "entry5"
+    },
+    {
+      "id": "entry5",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.teca_storm_warning.entry.5"
+      },
+      "endDialog": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "reimu",
+  "title": "神秘彩蛋任务",
+  "description": "东方厨蒸鹅心",
+  "start": "intro_1",
+  "entries": [
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.agirt.speaker.reimu" },
+      "text": [
+        { "translate": "dialog.agirt.reimu.1" }
+      ],
+      "portraits": [
+        {"path": "reimu.png", "position": "RIGHT", "brightness": 1.0, "animationType": "FADE_IN"}
+      ],
+      "next": "intro_2"
+    },
+        {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.agirt.speaker.reimu" },
+      "text": [
+        { "translate": "dialog.agirt.reimu.2" }
+      ],
+      "portraits": [
+        {"path": "reimu_amazed.png", "position": "RIGHT", "brightness": 1.0, "animationType": "FADE_IN"}
+      ],
+      "next": "intro_3"
+    },
+    {
+      "id": "intro_3",
+      "speaker": { "translate": "dialog.agirt.speaker.reimu" },
+      "text": [
+        { "translate": "dialog.agirt.reimu.3" }
+      ],
+            "portraits": [
+        {"path": "reimu_elaborate.png", "position": "RIGHT", "brightness": 1.0, "animationType": "FADE_IN"}
+      ],
+      "endDialog": true
+    }
+  ]
+}

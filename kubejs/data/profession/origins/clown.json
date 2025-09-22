@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "fallout:reinbow_joker_hammer"
+  },
+  "powers": [
+    "profession:clown/joy_resource",
+    "profession:clown/joy_kill_increase",
+    "profession:clown/joy_jump_effects",
+    "profession:clown/clown_attributes",
+    "profession:clown/starting_item"
+  ],
+  "impact": 3,
+  "order": 4
+}

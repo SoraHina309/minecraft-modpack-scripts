@@ -1,0 +1,90 @@
+{
+  "id": "agirt_earthrend",
+  "title": "通臂大师的呼唤",
+  "description": "与神秘的通臂大师对话",
+  "start": "earthrend_1",
+  "entries": [
+    {
+      "id": "earthrend_1",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend2" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.1" }
+      ],
+   "portraits": [],
+      "options": [
+        {
+          "text": { "translate": "dialog.agirt.earthrend.option.1" },
+          "target": "earthrend_2"
+        },
+        {
+          "text": { "translate": "dialog.agirt.earthrend.option.2" },
+          "target": "earthrend_3"
+        }
+      ]
+    },
+    {
+      "id": "earthrend_2",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend2" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.2" }
+      ],
+      "next": "earthrend_4"
+    },
+    {
+      "id": "earthrend_3",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend2" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.3" }
+      ],
+      "next": "earthrend_4"
+    },
+    {
+      "id": "earthrend_4",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.4" }
+      ],
+      "next": "earthrend_5"
+    },
+    {
+      "id": "earthrend_5",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.5" }
+      ],
+      "next": "earthrend_6"
+    },
+    {
+      "id": "earthrend_6",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.6" }
+      ],
+      "next": "earthrend_7"
+    },
+    {
+      "id": "earthrend_7",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.7" }
+      ],
+      "next": "earthrend_8"
+    },
+    {
+      "id": "earthrend_8",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.8" }
+      ],
+      "next": "earthrend_9"
+    },
+    {
+      "id": "earthrend_9",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.9" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

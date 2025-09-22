@@ -1,0 +1,33 @@
+{
+  "id": "agirt_barako3",
+  "title": "AGIRT调查任务·酋长样本",
+  "description": "AGIRT击杀巴拉尔克酋长奖励",
+  "start": "intro_1",
+  "entries": [
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.barako3.1" }
+      ],
+   "portraits": [],
+      "next": "intro_2"
+    },
+    {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.barako3.2" }
+      ],
+      "next": "intro_3"
+    },
+    {
+      "id": "intro_3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt.barako3.3" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

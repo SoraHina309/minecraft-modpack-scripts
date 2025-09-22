@@ -1,0 +1,39 @@
+{
+  "id": "agirt_champion13",
+  "title": "关键第一步",
+  "description": "总部指示玩家制作活力之魂",
+  "start": "champion13_1",
+  "entries": [
+    {
+      "id": "champion13_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion13.1" }
+      ],
+      "next": "champion13_2"
+    },
+    {
+      "id": "champion13_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion13.2" }
+      ],
+      "next": "champion13_3"
+    },
+    {
+      "id": "champion13_3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion13.3" }
+      ],
+      "next": "champion13_4"
+    },
+    {
+      "id": "champion13_4",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion13.4" }
+      ],      "endDialog": true
+    }
+  ]
+}

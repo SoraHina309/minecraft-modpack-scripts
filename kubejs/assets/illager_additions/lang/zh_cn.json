@@ -1,0 +1,60 @@
+{
+	"entity.illager_additions.shogun" : "幕府将军",
+	"entity.illager_additions.royal_guard_spearman" : "皇家卫兵",
+	"entity.illager_additions.samurai" : "灾厄武士",
+	"entity.illager_additions.new_samurai" : "灾厄武士",
+	"entity.illager_additions.spearman" : "灾厄卫兵",
+	"entity.illager_additions.cowboy" : "灾厄牛仔",
+	"entity.illager_additions.beamloger" : "厄难法师",
+	
+	"item.illager_additions.spear" : "灾厄长枪",
+	"item.illager_additions.royal_guard_spear" : "灾厄战斧",
+	"item.illager_additions.katana" : "武士刀",
+	"item.illager_additions.master_katana" : "名刀碎月",
+	
+	"item.illager_additions.beamloger_helmet" : "厄难法师帽",
+	"item.illager_additions.beamloger_chestplate" : "厄难法师长袍",
+	"item.illager_additions.beamloger_leggings" : "厄难法师裤",
+	"item.illager_additions.beamloger_boots" : "厄难法师靴",
+	
+	"item.illager_additions.guard_helmet" : "灾厄卫兵头盔",
+	"item.illager_additions.guard_chestplate" : "灾厄卫兵胸甲",
+	"item.illager_additions.guard_legs" : "灾厄卫兵护腿",
+	
+	"item.illager_additions.royal_guard_spearman_helmet" : "皇家卫兵头盔",
+	"item.illager_additions.royal_guard_spearman_chestplate" : "皇家卫兵胸甲",
+	"item.illager_additions.royal_guard_spearman_leggings" : "皇家卫兵护腿",
+	"item.illager_additions.royal_guard_spearman_boots" : "皇家卫兵靴",
+	
+	"item.illager_additions.shogun_helmet" : "幕府将军头盔",
+	"item.illager_additions.shogun_chestplate" : "幕府将军胸甲",
+	
+	"item.illager_additions.samurai_helmet" : "灾厄武士头盔",
+	"item.illager_additions.samurai_chestplate" : "灾厄武士胸甲",
+	"item.illager_additions.samurai_leggings" : "灾厄武士护腿",
+	"item.illager_additions.samurai_boots" : "灾厄武士靴",
+	"item.illager_additions.samurai_robes" : "灾厄武士长袍",
+	"item.illager_additions.samurai_pants" : "灾厄武士裤",
+	"item.illager_additions.samurai_shoes" : "灾厄武士鞋",
+	"item.illager_additions.red_samurai_robes" : "赤色武士长袍",
+	"item.illager_additions.red_samurai_pants" : "赤色武士裤",
+	"item.illager_additions.red_samurai_shoes" : "赤色武士鞋",
+	
+	"item.illager_additions.cowboy_hat" : "灾厄牛仔帽",
+	"item.illager_additions.cowboy_robes" : "灾厄牛仔外套",
+	"item.illager_additions.cowboy_pants" : "灾厄牛仔裤",
+	"item.illager_additions.cowboy_shoes" : "灾厄牛仔靴",
+	
+	"item.illager_additions.shogun_spawn_egg" : "幕府将军生成蛋",
+	"item.illager_additions.samurai_spawn_egg" : "武士生成蛋",
+	"item.illager_additions.spearman_spawn_egg" : "卫兵生成蛋",
+	"item.illager_additions.royal_guard_spawn_egg" : "皇家卫兵生成蛋",
+	"item.illager_additions.cowboy_spawn_egg" : "牛仔生成蛋",
+	"item.illager_additions.beamloger_spawn_egg" : "厄难法师生成蛋",
+	
+	"death.attack.rebound": "%1$s在射击武士时被自己的投射物反弹致死",
+	"death.attack.rebound.player": "%1$s在射击%2$s时被自己的投射物反弹致死",
+	"death.attack.reboundShogun": "%1$s在射击幕府将军时被自己的投射物反弹致死",
+	"death.attack.reboundShogun.player": "%1$s在射击%2$s时被自己的投射物反弹致死"
+	
+	}

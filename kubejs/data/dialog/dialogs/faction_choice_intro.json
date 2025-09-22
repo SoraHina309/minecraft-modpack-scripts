@@ -1,0 +1,76 @@
+{
+  "id": "faction_choice_intro",
+  "title": "母世界回信与阵营抉择",
+  "description": "相位仪收到母世界回信并引导你选择部门",
+  "start": "faction_1",
+  "entries": [
+    {
+      "id": "faction_1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.faction.entry.1" },
+      "portraits": [],
+
+      "next":  "faction_2"
+    },
+    {
+      "id": "faction_2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.faction.entry.2" },
+      "next": "faction_3"
+    },
+    {
+      "id": "faction_3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.faction.entry.3" },
+      "next": "faction_4"
+    },
+    {
+      "id": "faction_4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.faction.entry.4" },
+      "next": "faction_5"
+    },
+    {
+      "id": "faction_5",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.faction.entry.5" },
+      "next": "faction_6"
+    },
+    {
+      "id": "faction_6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.faction.entry.6" },
+      "next": "faction_7"
+    },
+            {
+      "id": "faction_7",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.faction.entry.7" },
+      "next": "faction_8"
+    },
+        {
+      "id": "faction_8",
+      "speaker": { "translate": "dialog.speaker.eden" },
+      "text": { "translate": "dialog.faction.entry.8" },
+      "next": "faction_9"
+    },
+            {
+      "id": "faction_9",
+      "speaker": { "translate": "dialog.speaker.eden" },
+      "text": { "translate": "dialog.faction.entry.9" },
+      "next": "faction_10"
+    },
+            {
+      "id": "faction_10",
+      "speaker": { "translate": "dialog.speaker.eden" },
+      "text": { "translate": "dialog.faction.entry.10" },
+      "next": "faction_11"
+    },
+            {
+      "id": "faction_11",
+      "speaker": { "translate": "dialog.speaker.eden" },
+      "text": { "translate": "dialog.faction.entry.11" },
+      "endDialog": true
+    }
+  ]
+}

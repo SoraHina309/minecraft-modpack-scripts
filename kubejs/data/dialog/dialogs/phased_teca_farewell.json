@@ -1,0 +1,48 @@
+{
+  "id": "phased_teca_farewell",
+  "title": "TECA的最后消息",
+  "start": "entry1",
+  "entries": [
+    {
+      "id": "entry1",
+      "speaker": {
+        "translate": "dialog.teca_research.speaker.dispatcher"
+      },
+      "text": {
+        "translate": "dialog.teca_farewell.entry.1"
+      },
+   "portraits": [],
+      "next": "entry2"
+    },
+    {
+      "id": "entry2",
+      "speaker": {
+        "translate": "dialog.teca_research.speaker.dispatcher"
+      },
+      "text": {
+        "translate": "dialog.teca_farewell.entry.2"
+      },
+      "next": "entry3"
+    },
+    {
+      "id": "entry3",
+      "speaker": {
+        "translate": "dialog.teca_research.speaker.dispatcher"
+      },
+      "text": {
+        "translate": "dialog.teca_farewell.entry.3"
+      },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.teca_farewell.entry.4"
+      },
+      "endDialog": true
+    }
+  ]
+}

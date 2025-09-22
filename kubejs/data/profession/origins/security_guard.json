@@ -1,0 +1,12 @@
+{
+  "icon": {
+    "item": "fallout:un_full_bounce"
+  },
+  "powers": [
+    "profession:security_guard/attributes",
+    "profession:security_guard/starting_items",
+    "profession:security_guard/no_sleep"
+  ],
+  "impact": 1,
+  "order": 1
+}

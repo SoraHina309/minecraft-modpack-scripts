@@ -1,0 +1,161 @@
+{
+  "Dimensions": [
+    "minecraft:overworld"
+  ],
+  "InvasionTime": "NIGHT",
+  "Rarity": 25,
+  "SeverityInfo": [
+    {
+      "MobCapPercentage": 0.6,
+      "MobSpawnList": [
+        {
+          "EntityType": "cataclysm:draugr",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "cataclysm:royal_draugr",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:skeleton_vanguard",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "cataclysm:elite_draugr",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 24
+    },
+    {
+      "MobCapPercentage": 0.7,
+      "MobSpawnList": [
+        {
+          "EntityType": "cataclysm:draugr",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "cataclysm:royal_draugr",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:skeleton_vanguard",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "cataclysm:elite_draugr",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 20
+    },
+    {
+      "MobCapPercentage": 0.8,
+      "MobSpawnList": [
+        {
+          "EntityType": "cataclysm:draugr",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 5
+        },
+        {
+          "EntityType": "cataclysm:royal_draugr",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:skeleton_vanguard",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 4
+        },
+        {
+          "EntityType": "cataclysm:elite_draugr",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 16
+    },
+    {
+      "MobCapPercentage": 0.9,
+      "MobSpawnList": [
+        {
+          "EntityType": "cataclysm:draugr",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 5
+        },
+        {
+          "EntityType": "cataclysm:royal_draugr",
+          "MaxCount": 3,
+          "MinCount": 2,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:skeleton_vanguard",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 4
+        },
+        {
+          "EntityType": "cataclysm:elite_draugr",
+          "MaxCount": 3,
+          "MinCount": 2,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 12
+    },
+    {
+      "MobCapPercentage": 1.0,
+      "MobSpawnList": [
+        {
+          "EntityType": "cataclysm:draugr",
+          "MaxCount": 7,
+          "MinCount": 3,
+          "Weight": 5
+        },
+        {
+          "EntityType": "cataclysm:royal_draugr",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:skeleton_vanguard",
+          "MaxCount": 6,
+          "MinCount": 3,
+          "Weight": 4
+        },
+        {
+          "EntityType": "cataclysm:elite_draugr",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 8
+    }
+  ],
+  "Tier": 1,
+  "OverridesExisting": true
+}

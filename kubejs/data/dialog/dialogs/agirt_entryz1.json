@@ -1,0 +1,33 @@
+{
+  "id": "agirt_entryz1",
+  "title": "AGIRT调查任务·塞壬研究",
+  "description": "AGIRT塞壬研究奖励阶段",
+  "start": "intro_1",
+  "entries": [
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.entryz1.1" }
+      ],
+   "portraits": [],
+      "next": "intro_2"
+    },
+    {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.entryz1.2" }
+      ],
+      "next": "intro_3"
+    },
+    {
+      "id": "intro_3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.entryz1.3" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "Dimensions": [
+    "minecraft:overworld"
+  ],
+  "InvasionTime": "NIGHT",
+  "Rarity": 55,
+  "SeverityInfo": [
+    {
+      "MobCapPercentage": 0.2,
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 50
+        },
+        {
+          "EntityType": "dungeonsmobs:mossy_skeleton",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 35
+        },
+        {
+          "EntityType": "dungeonsmobs:leapleaf",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 12
+        },
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 3
+        }
+      ],
+      "TickDelay": 32
+    },
+    {
+      "MobCapPercentage": 0.4,
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 50
+        },
+        {
+          "EntityType": "dungeonsmobs:mossy_skeleton",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 35
+        },
+        {
+          "EntityType": "dungeonsmobs:leapleaf",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 12
+        },
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 3
+        }
+      ],
+      "TickDelay": 26
+    },
+    {
+      "MobCapPercentage": 0.6,
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 50
+        },
+        {
+          "EntityType": "dungeonsmobs:mossy_skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 35
+        },
+        {
+          "EntityType": "dungeonsmobs:leapleaf",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 12
+        },
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 3
+        }
+      ],
+      "TickDelay": 20
+    },
+    {
+      "MobCapPercentage": 0.8,
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 50
+        },
+        {
+          "EntityType": "dungeonsmobs:mossy_skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 35
+        },
+        {
+          "EntityType": "dungeonsmobs:leapleaf",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 12
+        },
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 3
+        }
+      ],
+      "TickDelay": 14
+    },
+    {
+      "MobCapPercentage": 1.0,
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 3,
+          "MinCount": 2,
+          "Weight": 50
+        },
+        {
+          "EntityType": "dungeonsmobs:mossy_skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 35
+        },
+        {
+          "EntityType": "dungeonsmobs:leapleaf",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 12
+        },
+        {
+          "EntityType": "dungeonsmobs:jungle_zombie",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 3
+        }
+      ],
+      "TickDelay": 8
+    }
+  ],
+  "Tier": 1,
+  "OverridesExisting": true
+}

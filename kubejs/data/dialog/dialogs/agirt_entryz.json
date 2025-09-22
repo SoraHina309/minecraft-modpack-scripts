@@ -1,0 +1,57 @@
+{
+  "id": "agirt_entryz",
+  "title": "AGIRT调查任务·塞壬研究",
+  "description": "AGIRT塞壬研究奖励阶段",
+  "start": "intro_1",
+  "entries": [
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.entryz.1" }
+      ],
+   "portraits": [],
+      "next": "intro_2"
+    },
+    {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.entryz.2" }
+      ],
+      "next": "intro_3"
+    },
+    {
+      "id": "intro_3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.entryz.3" }
+      ],
+      "next": "intro_4"
+    },
+    {
+      "id": "intro_4",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.entryz.4" }
+      ],
+      "next": "intro_5"
+    },
+    {
+      "id": "intro_5",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt.entryz.5" }
+      ],
+      "next": "intro_6"
+    },
+    {
+      "id": "intro_6",
+      "speaker": { "translate": "dialog.agirt.speaker.you" },
+      "text": [
+        { "translate": "dialog.agirt.entryz.6" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

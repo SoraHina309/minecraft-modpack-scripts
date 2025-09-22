@@ -1,0 +1,236 @@
+{
+  "id": "agirt_umvuth_intro",
+  "title": "乌姆纳塔初次对话",
+  "description": "与乌姆纳塔酋长的第一次接触",
+  "start": "umvuth_1",
+  "entries": [
+    {
+      "id": "umvuth_1",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.umvuthi"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.umvuth.1"
+        }
+      ],
+   "portraits": [],
+      "next": "umvuth_2"
+    },
+    {
+      "id": "umvuth_2",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.umvuthi"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.umvuth.2"
+        }
+      ],
+      "options": [
+        {
+          "text": {
+            "translate": "dialog.agirt.umvuth.option.1"
+          },
+          "target": "he"
+        },
+        {
+          "text": {
+            "translate": "dialog.agirt.umvuth.option.2"
+          },
+          "target": "he1"
+        },
+        {
+          "text": {
+            "translate": "dialog.agirt.umvuth.option.3"
+          },
+          "target": "be"
+        }
+      ]
+    },
+    {
+      "id": "he",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.umvuthi"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.he.2"
+        }
+      ],
+      "next": "barako_1"
+    },
+    {
+      "id": "he1",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.umvuthi"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.he1.2"
+        }
+      ],
+      "next": "barako_1"
+    },
+    {
+      "id": "be",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.umvuthi"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.be.1"
+        }
+      ],
+      "command": [
+        "/execute as @a at @s run damage @e[type=mowziesmobs:umvuthi,distance=..16,limit=1,sort=nearest] 0.1 minecraft:player_attack by @s"
+      ],      "endDialog": true
+    },
+    {
+      "id": "barako_1",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.1"
+        }
+      ],
+      "options": [
+        {
+          "text": {
+            "translate": "dialog.agirt.umvuth.option.4"
+          },
+          "target": "barako_2"
+        },
+        {
+          "text": {
+            "translate": "dialog.agirt.umvuth.option.5"
+          },
+          "target": "barako_4"
+        }
+      ]
+    },
+    {
+      "id": "barako_2",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.2"
+        }
+      ],      "endDialog": true
+    },
+    {
+      "id": "barako_3",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.3"
+        }
+      ],
+      "next": "barako_4"
+    },
+    {
+      "id": "barako_4",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.4"
+        }
+      ],
+      "next": "barako_5"
+    },
+    {
+      "id": "barako_5",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.5"
+        }
+      ],
+      "next": "barako_6"
+    },
+    {
+      "id": "barako_6",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.6"
+        }
+      ],
+      "next": "barako_7"
+    },
+    {
+      "id": "barako_7",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.7"
+        }
+      ],
+      "next": "barako_8"
+    },
+    {
+      "id": "barako_8",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.8"
+        }
+      ],
+      "next": "barako_9"
+    },
+    {
+      "id": "barako_9",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.9"
+        }
+      ],
+      "next": "barako_10"
+    },
+    {
+      "id": "barako_10",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.barako"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.10"
+        }
+      ],
+      "next": "barako_11"
+    },
+    {
+      "id": "barako_11",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.barako.11"
+        }
+      ],
+      "command": [
+        "/advancement grant @s only mowziesmobs:kill_umvuthi"
+      ],      "endDialog": true
+    }
+  ]
+}

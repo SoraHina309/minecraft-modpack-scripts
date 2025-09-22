@@ -1,0 +1,56 @@
+{
+  "id": "agirt_champion11",
+  "title": "沉沦之城报告",
+  "description": "离开沉沦之城后与总部建立联系",
+  "start": "champion11_1",
+  "entries": [
+    {
+      "id": "champion11_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion11.1" }
+      ],
+      "next": "champion11_2"
+    },
+    {
+      "id": "champion11_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion11.2" }
+      ],
+      "options": [
+        {
+          "text": { "translate": "dialog.agirt.champion11.option.1" },
+          "target": "champion11_3"
+        },
+        {
+          "text": { "translate": "dialog.agirt.champion11.option.2" },
+          "target": "champion11_3"
+        }
+      ]
+    },
+    {
+      "id": "champion11_3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion11.3" }
+      ],
+      "next": "champion11_4"
+    },
+    {
+      "id": "champion11_4",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion11.4" }
+      ],
+      "next": "champion11_5"
+    },
+    {
+      "id": "champion11_5",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion11.5" }
+      ],      "endDialog": true
+    }
+  ]
+}

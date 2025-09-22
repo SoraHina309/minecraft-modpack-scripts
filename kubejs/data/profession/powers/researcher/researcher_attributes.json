@@ -1,0 +1,23 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Reduced Health for Focus",
+    "attribute": "minecraft:generic.max_health",
+    "value": -8,
+    "operation": "addition"
+  },
+  "modifiers": [
+    {
+      "name": "Vertical Recoil Penalty",
+      "attribute": "gunsmithlib:vert_recoil",
+      "value": 0.65,
+      "operation": "multiply_base"
+    },
+    {
+      "name": "Horizontal Recoil Penalty",
+      "attribute": "gunsmithlib:horz_recoil",
+      "value": 0.65,
+      "operation": "multiply_base"
+    }
+  ]
+}

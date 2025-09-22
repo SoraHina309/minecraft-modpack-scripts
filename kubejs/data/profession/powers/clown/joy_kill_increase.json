@@ -1,0 +1,15 @@
+{
+  "type": "origins:self_action_on_kill",
+       "hidden": true,
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "profession:clown/joy_resource",
+    "change": 3
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "profession:clown/joy_resource",
+    "comparison": "<",
+    "compare_to": 30
+  }
+}

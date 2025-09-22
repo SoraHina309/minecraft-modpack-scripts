@@ -1,0 +1,88 @@
+{
+  "id": "agirt_champion7",
+  "title": "沉沦之城",
+  "description": "抵达沉沦之城并遭遇水母与利维坦的精神干涉",
+  "start": "intro_1",
+  "entries": [
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.1" }
+      ],
+      "next": "intro_2"
+    },
+    {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.2" }
+      ],
+      "next": "intro_3"
+    },
+    {
+      "id": "intro_3",
+      "speaker": { "translate": "dialog.agirt.speaker.jellyfish" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.3" }
+      ],
+      "next": "intro_4"
+    },
+    {
+      "id": "intro_4",
+      "speaker": { "translate": "dialog.agirt.speaker.jellyfish" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.4" }
+      ],
+      "next": "intro_5"
+    },
+    {
+      "id": "intro_5",
+      "speaker": { "translate": "dialog.agirt.speaker.Leviathan" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.5" }
+      ],
+      "options": [
+        {
+          "text": { "translate": "dialog.agirt.champion7.option.1" },
+          "target": "intro_6"
+        },
+        {
+          "text": { "translate": "dialog.agirt.champion7.option.2" },
+          "target": "intro_7"
+        }
+      ]
+    },
+    {
+      "id": "intro_6",
+      "speaker": { "translate": "dialog.agirt.speaker.Leviathan" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.6" }
+      ],
+      "next": "intro_8"
+    },
+    {
+      "id": "intro_7",
+      "speaker": { "translate": "dialog.agirt.speaker.Leviathan" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.7" }
+      ],
+      "next": "intro_8"
+    },
+    {
+      "id": "intro_8",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.8" }
+      ],
+      "next": "intro_9"
+    },
+    {
+      "id": "intro_9",
+      "speaker": { "translate": "dialog.agirt.speaker.Leviathan" },
+      "text": [
+        { "translate": "dialog.agirt.champion7.9" }
+      ],      "endDialog": true
+    }
+  ]
+}

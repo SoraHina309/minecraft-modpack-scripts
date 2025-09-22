@@ -1,0 +1,51 @@
+{
+  "id": "teca_phase_drill_reveal",
+  "title": "相位钻机计划披露",
+  "description": "TECA宣布将启动维度钻机通道工程",
+  "start": "entry1",
+  "entries": [
+    {
+      "id": "entry1",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.phasedrill.entry.1" },
+   "portraits": [],
+      "next": "entry2"
+    },
+    {
+      "id": "entry2",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.phasedrill.entry.2" },
+      "next": "entry3"
+    },
+    {
+      "id": "entry3",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.phasedrill.entry.3" },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.phasedrill.entry.4" },
+      "next": "entry5"
+    },
+    {
+      "id": "entry5",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.phasedrill.entry.5" },
+      "next": "entry6"
+    },
+    {
+      "id": "entry6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.phasedrill.entry.6" },
+      "next": "entry7"
+    },
+        {
+      "id": "entry7",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+            "text": { "translate": "dialog.phasedrill.entry.7" },
+      "endDialog": true
+    }
+  ]
+}

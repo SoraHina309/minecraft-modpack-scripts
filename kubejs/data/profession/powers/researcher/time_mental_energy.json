@@ -1,0 +1,18 @@
+{
+   "type": "origins:action_over_time",
+     "hidden": true,
+    "interval": 20,
+    "duration": -1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "profession:researcher/mental_energy",
+      "comparison": "<",
+      "compare_to": 100
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "profession:researcher/mental_energy",
+      "change": 1
+    }
+  }
+

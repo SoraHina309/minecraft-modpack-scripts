@@ -1,0 +1,11 @@
+{
+  "icon": {
+    "item": "legendarysurvivaloverhaul:bandage"
+  },
+  "powers": [
+    "profession:survivalist/survivalist_attributes",
+    "profession:survivalist/starting_item"
+  ],
+  "impact": 1,
+  "order": 2
+}

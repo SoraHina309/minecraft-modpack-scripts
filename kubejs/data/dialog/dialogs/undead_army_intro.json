@@ -1,0 +1,37 @@
+{
+  "id": "undead_army_intro",
+  "title": "亡灵军团介绍",
+  "description": "介绍不死军团的生成机制与难度设定",
+  "start": "ua_1",
+  "entries": [
+    {
+      "id": "ua_1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips", "bold": true },
+      "text": [{ "translate": "dialog.undead_army_intro.entry.1" }],
+      "portraits": [],
+
+      "next": "ua_2"
+    },
+    {
+      "id": "ua_2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips", "bold": true },
+      "text": [{ "translate": "dialog.undead_army_intro.entry.2" }],
+      "portraits": [],
+      "next": "ua_3"
+    },
+    {
+      "id": "ua_3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips", "bold": true },
+      "text": [{ "translate": "dialog.undead_army_intro.entry.3" }],
+      "portraits": [],
+      "next": "ua_4"
+    },
+    {
+      "id": "ua_4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips", "bold": true },
+      "text": [{ "translate": "dialog.undead_army_intro.entry.4" }],
+      "portraits": [],
+      "endDialog": true
+    }
+  ]
+}

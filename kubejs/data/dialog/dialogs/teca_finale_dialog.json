@@ -1,0 +1,89 @@
+{
+  "id": "teca_finale_dialog",
+  "title": "终局对话",
+  "description": "凋零风暴结束后的结局对话",
+  "start": "final_1",
+  "entries": [
+    {
+      "id": "final_1",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        { "translate": "dialog.teca_finale_dialog.finale.1" }
+      ],
+   "portraits": [],
+      "next": "final_2"
+    },
+    {
+      "id": "final_2",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        { "translate": "dialog.teca_finale_dialog.finale.2" }
+      ],
+      "next": "final_3"
+    },
+    {
+      "id": "final_3",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        { "translate": "dialog.teca_finale_dialog.finale.3" }
+      ],
+      "next": "final_4"
+    },
+    {
+      "id": "final_4",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        { "translate": "dialog.teca_finale_dialog.finale.4" }
+      ],
+      "next": "final_5"
+    },
+    {
+      "id": "final_5",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        { "translate": "dialog.teca_finale_dialog.finale.5" }
+      ],
+      "next": "final_6"
+    },
+    {
+      "id": "final_6",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        { "translate": "dialog.teca_finale_dialog.finale.6" }
+      ],
+      "next": "final_7"
+    },
+    {
+      "id": "final_7",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        { "translate": "dialog.teca_finale_dialog.finale.7" }
+      ],
+      "next": "final_8"
+    },
+    {
+      "id": "final_8",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        { "translate": "dialog.teca_finale_dialog.finale.8" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

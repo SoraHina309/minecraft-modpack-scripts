@@ -1,0 +1,49 @@
+{
+  "id": "invasion_info",
+  "title": "入侵事件说明",
+  "description": "由相位仪提供的世界安全提示",
+  "start": "inv_1",
+  "entries": [
+    {
+      "id": "inv_1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.invasion.entry.1" },
+      "next": "inv_2"
+    },
+    {
+      "id": "inv_2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.invasion.entry.2" },
+      "next": "inv_3"
+    },
+    {
+      "id": "inv_3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.invasion.entry.3" },
+      "next": "inv_4"
+    },
+    {
+      "id": "inv_4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.invasion.entry.4" },
+      "next": "inv_5"
+    },
+    {
+      "id": "inv_5",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.invasion.entry.5" },
+      "next": "inv_6"
+    },
+    {
+      "id": "inv_6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.invasion.entry.6" },
+      "next": "inv_7"
+    },
+    {
+      "id": "inv_7",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.invasion.entry.7" },      "endDialog": true
+    }
+  ]
+}

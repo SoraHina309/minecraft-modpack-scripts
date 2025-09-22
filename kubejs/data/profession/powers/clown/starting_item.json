@@ -1,0 +1,10 @@
+{
+  "type": "origins:starting_equipment",
+  "keep_nbt": true,
+  "stacks": [
+    {
+      "item": "fallout:paradise_book",
+      "count": 1
+    }
+  ]
+}

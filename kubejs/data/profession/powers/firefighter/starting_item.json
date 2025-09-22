@@ -1,0 +1,10 @@
+{
+  "type": "origins:starting_equipment",
+  "keep_nbt": true,
+  "stacks": [
+    {
+      "item": "fallout:firefighter_axe",
+      "count": 1
+    }
+  ]
+}

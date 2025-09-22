@@ -1,0 +1,18 @@
+{
+  "joky": {
+    "sounds": [
+      {
+        "name": "fallout:joky",
+        "stream": false
+      }
+    ]
+  },
+    "joker_hammer": {
+    "sounds": [
+      {
+        "name": "fallout:joker_hammer",
+        "stream": false
+      }
+    ]
+  }
+}

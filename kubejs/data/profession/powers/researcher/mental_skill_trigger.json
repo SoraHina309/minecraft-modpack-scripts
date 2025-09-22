@@ -1,0 +1,54 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "cooldown": 40,
+  "cooldown_resource": "profession:researcher/mental_burst_cd",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "profession:researcher/mental_energy",
+    "comparison": ">=",
+    "compare_to": 100
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:set_resource",
+        "resource": "profession:researcher/mental_energy",
+        "value": 0
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "profession:researcher/attention_stat",
+        "change": 25
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "legendarysurvivaloverhaul:headache",
+          "duration": 400,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "legendarysurvivaloverhaul:thirst",
+          "duration": 40,
+          "amplifier": 161
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:hunger",
+          "duration": 40,
+          "amplifier": 255
+        }
+      }
+    ]
+  }
+}

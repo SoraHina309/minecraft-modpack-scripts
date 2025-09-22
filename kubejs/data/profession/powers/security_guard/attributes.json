@@ -1,0 +1,23 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "recoil_vert",
+      "attribute": "gunsmithlib:vert_recoil",
+      "value": -0.15,
+      "operation": "multiply_base"
+    },
+    {
+      "name": "recoil_horz",
+      "attribute": "gunsmithlib:horz_recoil",
+      "value": -0.15,
+      "operation": "multiply_base"
+    },
+    {
+      "name": "less_health",
+      "attribute": "minecraft:generic.max_health",
+      "value": -4,
+      "operation": "addition"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "teca_atomic_stage",
+  "title": "TECA - 原子能时代任务",
+  "description": "相位仪提示最终阶段：自主推进原型科技",
+  "start": "a1",
+  "entries": [
+    {
+      "id": "a1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.atomic.1" },
+   "portraits": [],
+      "next": "a2"
+    },
+    {
+      "id": "a2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.atomic.2" },
+      "next": "a3"
+    },
+    {
+      "id": "a3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.atomic.3" },
+      "next": "a4"
+    },
+    {
+      "id": "a4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.atomic.4" },
+      "next": "a5"
+    },
+    {
+      "id": "a5",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.atomic.5" },
+      "next": "a6"
+    },
+    {
+      "id": "a6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.atomic.6" },
+      "next": "a7"
+    },
+    {
+      "id": "a7",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.atomic.7" },
+      "next": "a8"
+    },
+        {
+      "id": "a8",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.atomic.8" },
+      "endDialog": true
+    }
+  ]
+}

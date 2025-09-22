@@ -1,0 +1,56 @@
+{
+  "id": "hero",
+  "title": "击退袭击后的对话",
+  "description": "处理干扰源的任务开始",
+  "start": "entry_start",
+  "entries": [
+    {
+      "id": "entry_start",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.hero.entry.start" },
+   "portraits": [],
+      "next": "entry1"
+    },
+    {
+      "id": "entry1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.hero.entry.1.dialog" },
+      "options": [
+        {
+          "text": { "translate": "dialog.hero.option.hello1" },
+          "target": "entry2"
+        },
+        {
+          "text": { "translate": "dialog.hero.option.hello2" },
+          "target": "entry3"
+        }
+      ]
+    },
+    {
+      "id": "entry2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.hero.entry.2.dialog" },
+      "next": "entry4"
+    },
+    {
+      "id": "entry3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.hero.entry.3.dialog" },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": { "translate": "dialog.villager_exchange.speaker.unknown" },
+      "text": { "translate": "dialog.hero.entry.4.dialog" },
+      "next": "entry5"
+    },
+    {
+      "id": "entry5",
+      "speaker": { "translate": "dialog.villager_exchange.speaker.unknown" },
+      "text": { "translate": "dialog.hero.entry.5.dialog" },
+      "command": [
+        "give @s cataclysm:black_steel_ingot"
+      ],      "endDialog": true
+    }
+  ]
+}

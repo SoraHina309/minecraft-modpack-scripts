@@ -1,0 +1,33 @@
+{
+  "id": "agirt_storm_warning",
+  "title": "凋零风暴预警",
+  "description": "巨兽离开母世界，正前往异界",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt_storm_warning.entry.1" }
+      ],
+      "next": "step2"
+    },
+    {
+      "id": "step2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt_storm_warning.entry.2" }
+      ],
+      "options": [
+        {
+          "text": { "translate": "dialog.agirt_storm_warning.option.a" },
+          "endDialog": true
+        },
+        {
+          "text": { "translate": "dialog.agirt_storm_warning.option.b" },
+          "endDialog": true
+        }
+      ]
+    }
+  ]
+}

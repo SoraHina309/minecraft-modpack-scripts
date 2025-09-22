@@ -1,0 +1,81 @@
+{
+  "id": "resonance",
+  "title": "干扰源定位与联络",
+  "description": "靠近目标晶体后启动的联络流程",
+  "start": "entry_start",
+  "entries": [
+    {
+      "id": "entry_start",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.resonance.entry.start" },
+   "portraits": [],
+      "next": "entry1"
+    },
+    {
+      "id": "entry1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.resonance.entry.1.dialog" },
+      "options": [
+        {
+          "text": { "translate": "dialog.resonance.option.hello1" },
+          "target": "entry2"
+        },
+        {
+          "text": { "translate": "dialog.resonance.option.hello2" },
+          "target": "entry3"
+        }
+      ]
+    },
+    {
+      "id": "entry2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.resonance.entry.2.dialog" },
+      "next": "entry4"
+    },
+    {
+      "id": "entry3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.resonance.entry.3.dialog" },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.resonance.entry.4.dialog" },
+      "next": "entry5"
+    },
+    {
+      "id": "entry5",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.resonance.entry.5.dialog" },
+      "options": [
+        {
+          "text": { "translate": "dialog.resonance.option.hello3" },
+          "target": "entry6"
+        },
+        {
+          "text": { "translate": "dialog.resonance.option.hello4" },
+          "target": "entry6"
+        }
+      ]
+    },
+    {
+      "id": "entry6",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.resonance.entry.6.dialog" },
+      "next": "entry7"
+    },
+    {
+      "id": "entry7",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": { "translate": "dialog.resonance.entry.7.dialog" },
+      "next": "entry8"
+    },
+    {
+      "id": "entry8",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.resonance.entry.8.dialog" },
+      "endDialog": true
+    }
+  ]
+}

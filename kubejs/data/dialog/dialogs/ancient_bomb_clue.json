@@ -1,0 +1,98 @@
+{
+  "id": "ancient_bomb_clue",
+  "title": "远古典籍的线索",
+  "start": "entry1",
+  "entries": [
+    {
+      "id": "entry1",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.1"
+      },
+   "portraits": [],
+      "next": "entry2"
+    },
+    {
+      "id": "entry2",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.2"
+      },
+      "next": "entry3"
+    },
+    {
+      "id": "entry3",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.3"
+      },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.4"
+      },
+      "next": "entry5"
+    },
+    {
+      "id": "entry5",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.5"
+      },
+      "next": "entry6"
+    },
+    {
+      "id": "entry6",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.6"
+      },
+      "next": "entry7"
+    },
+    {
+      "id": "entry7",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.7"
+      },
+      "next": "entry8"
+    },
+    {
+      "id": "entry8",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.8"
+      },
+      "next": "entry9"
+    },
+        {
+      "id": "entry9",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": {
+        "translate": "dialog.ancient_bomb.entry.9"
+      },
+      "endDialog": true
+    }
+  ]
+}

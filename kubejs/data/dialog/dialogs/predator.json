@@ -1,0 +1,55 @@
+{
+  "id": "predator",
+  "title": "可疑商人的交易",
+  "description": "一场关于垃圾和宝物的误会",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": { "translate": "dialog.profiteer.speaker.unknown" },
+      "text": { "translate": "dialog.predator.entry.start" },
+   "portraits": [],
+      "options": [
+        {
+          "text": { "translate": "dialog.predator.option.hello1" },
+          "target": "entry1"
+        },
+        {
+          "text": { "translate": "dialog.predator.option.hello2" },
+          "target": "entry2"
+        }
+      ]
+    },
+    {
+      "id": "entry1",
+      "speaker": { "translate": "dialog.profiteer.speaker.unknown" },
+      "text": { "translate": "dialog.predator.entry.1.dialog" },
+      "next": "entry2"
+    },
+    {
+      "id": "entry2",
+      "speaker": { "translate": "dialog.profiteer.speaker.unknown" },
+      "text": { "translate": "dialog.predator.entry.2.dialog" },
+      "next": "entry3"
+    },
+{
+  "id": "entry3",
+  "speaker": { "translate": "dialog.profiteer.speaker.unknown" },
+  "text": { "translate": "dialog.predator.entry.3.dialog" },
+  "command": [
+    "kill @e[type=minecraft:wandering_trader]"
+  ],
+  "next": "entry4"
+},
+{
+  "id": "entry4",
+  "speaker": { "translate": "dialog.villager_exchange.speaker.unknown" },
+  "text": { "translate": "dialog.predator.entry.4.dialog" },
+  "command": [
+    "effect give @s minecraft:bad_omen 100 0 true"
+  ],
+  "endDialog": true
+}
+
+  ]
+}

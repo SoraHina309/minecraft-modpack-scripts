@@ -1,0 +1,55 @@
+{
+  "id": "agirt_champion15",
+  "title": "植物学家的请求",
+  "description": "总部解析古代文献并转交植物学家的委托",
+  "start": "champion15_1",
+  "entries": [
+    {
+      "id": "champion15_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion15.1" }
+      ],
+      "next": "champion15_2"
+    },
+    {
+      "id": "champion15_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion15.2" }
+      ],
+      "next": "champion15_3"
+    },
+    {
+      "id": "champion15_3",
+      "speaker": { "translate": "dialog.agirt.speaker.fabric" },
+      "text": [
+        { "translate": "dialog.agirt.champion15.3" }
+      ],
+      "next": "champion15_4"
+    },
+    {
+      "id": "champion15_4",
+      "speaker": { "translate": "dialog.agirt.speaker.fabric" },
+      "text": [
+        { "translate": "dialog.agirt.champion15.4" }
+      ],
+      "next": "champion15_5"
+    },
+    {
+      "id": "champion15_5",
+      "speaker": { "translate": "dialog.agirt.speaker.fabric" },
+      "text": [
+        { "translate": "dialog.agirt.champion15.5" }
+      ],
+      "next": "champion15_6"
+    },
+    {
+      "id": "champion15_6",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion15.6" }
+      ],      "endDialog": true
+    }
+  ]
+}

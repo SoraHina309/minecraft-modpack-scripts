@@ -1,0 +1,45 @@
+{
+  "id": "teca_research_reward",
+  "title": "新材料发现",
+  "description": "TECA调度员对你的研究成果表示肯定并提出新任务",
+  "start": "entry1",
+  "entries": [
+    {
+      "id": "entry1",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.teca_research.entry.1" },
+   "portraits": [],
+      "next": "entry2"
+    },
+    {
+      "id": "entry2",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.teca_research.entry.2" },
+      "next": "entry3"
+    },
+    {
+      "id": "entry3",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.teca_research.entry.3" },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.teca_research.entry.4" },
+      "next": "entry5"
+    },
+    {
+      "id": "entry5",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.teca_research.entry.5" },
+      "next": "entry6"
+    },
+        {
+      "id": "entry6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca_research.entry.6" },
+      "endDialog": true
+    }
+  ]
+}

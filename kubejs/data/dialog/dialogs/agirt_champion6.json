@@ -1,0 +1,73 @@
+{
+  "id": "agirt_champion6",
+  "title": "AGIRT调查任务·生命之力",
+  "description": "AGIRT关于古代生物与生命之力的研究结论",
+  "start": "champion6_1",
+  "entries": [
+    {
+      "id": "champion6_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion6.1" }
+      ],
+   "portraits": [],
+      "next": "champion6_2"
+    },
+    {
+      "id": "champion6_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion6.2" }
+      ],
+      "next": "champion6_3"
+    },
+    {
+      "id": "champion6_3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion6.3" }
+      ],
+      "next": "champion6_4"
+    },
+    {
+      "id": "champion6_4",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion6.4" }
+      ],
+      "next": "champion6_5"
+    },
+    {
+      "id": "champion6_5",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion6.5" }
+      ],
+      "next": "champion6_6"
+    },
+    {
+      "id": "champion6_6",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion6.6" }
+      ],
+      "next": "champion6_7"
+    },
+    {
+      "id": "champion6_7",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion6.7" }
+      ],
+      "next": "champion6_8"
+    },
+    {
+      "id": "champion6_8",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt.champion6.8" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

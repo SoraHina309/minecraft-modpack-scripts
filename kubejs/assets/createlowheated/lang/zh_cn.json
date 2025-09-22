@@ -1,0 +1,13 @@
+{
+  "block.createlowheated.basic_burner": "基础燃烧炉",
+  "block.createlowheated.basic_burner.tooltip": "基础燃烧炉",
+  "block.createlowheated.basic_burner.tooltip.behaviour1": "右键使用_燃料_填充，或通过_漏斗/溜槽/动力臂_输入",
+  "block.createlowheated.basic_burner.tooltip.behaviour2": "需用_打火石_右键点燃。持续添加燃料可维持燃烧",
+  "block.createlowheated.basic_burner.tooltip.behaviour3": "可用最大转速的风扇鼓风强化燃烧",
+  "block.createlowheated.basic_burner.tooltip.condition1": "需要燃料",
+  "block.createlowheated.basic_burner.tooltip.condition2": "需打火石点燃",
+  "block.createlowheated.basic_burner.tooltip.condition3": "强化燃烧状态",
+  "block.createlowheated.basic_burner.tooltip.summary": "为_工作盘_和_蒸汽机_提供基础热源",
+  "create.recipe.heat_requirement.lowheated": "低温加热",
+  "itemGroup.createlowheated.base": "机械动力：低温加热"
+}

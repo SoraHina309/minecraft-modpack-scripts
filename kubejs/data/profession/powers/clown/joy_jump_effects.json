@@ -1,0 +1,85 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "cooldown": 200,
+  "cooldown_resource": "profession:clown/burst_cd",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "profession:clown/joy_resource",
+    "comparison": ">=",
+    "compare_to": 30
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:set_resource",
+        "resource": "profession:clown/joy_resource",
+        "value": 0
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:strength",
+          "duration": 800,
+          "amplifier": 0
+        }
+      },
+           {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "alexsmobs:fleet_footed",
+          "duration": 800,
+          "amplifier": 2
+        }
+      },
+            {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:health_boost",
+          "duration": 800,
+          "amplifier": 18
+        }
+      },
+                  {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:instant_health",
+          "duration": 40,
+          "amplifier": 2
+        }
+      },
+           {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "duration": 800,
+          "amplifier": 2
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "irons_spellbooks:rend",
+          "duration": 800,
+          "amplifier": 19
+        }
+      },
+            {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "irons_spellbooks:heartstop",
+          "duration": 800,
+          "amplifier": 1
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function profession:play_joky"
+      }
+    ]
+  }
+}

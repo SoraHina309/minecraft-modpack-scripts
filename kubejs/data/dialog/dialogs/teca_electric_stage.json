@@ -1,0 +1,51 @@
+{
+  "id": "teca_electric_stage",
+  "title": "TECA - 电气时代任务",
+  "description": "多相仪提示电气时代的科技目标和帮助信息",
+  "start": "e1",
+  "entries": [
+    {
+      "id": "e1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.electric.1" },
+   "portraits": [],
+      "next": "e2"
+    },
+    {
+      "id": "e2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.electric.2" },
+      "next": "e3"
+    },
+    {
+      "id": "e3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.electric.3" },
+      "next": "e4"
+    },
+    {
+      "id": "e4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.electric.4" },
+      "next": "e5"
+    },
+    {
+      "id": "e5",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.electric.5" },
+      "next": "e6"
+    },
+    {
+      "id": "e6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.electric.6" },
+      "next": "e7"
+    },
+    {
+      "id": "e7",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.electric.7" },
+      "endDialog": true
+    }
+  ]
+}

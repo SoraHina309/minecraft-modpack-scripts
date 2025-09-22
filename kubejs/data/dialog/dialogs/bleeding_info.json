@@ -1,0 +1,33 @@
+{
+  "id": "bleeding_info",
+  "title": "出血机制提示",
+  "description": "多相仪关于武器伤害机制的说明",
+  "start": "bleed_1",
+  "entries": [
+    {
+      "id": "bleed_1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.bleeding.entry.1" },
+      "portraits": [],
+
+      "next":  "bleed_2"
+    },
+    {
+      "id": "bleed_2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.bleeding.entry.2" },
+      "next": "bleed_3"
+    },
+    {
+      "id": "bleed_3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.bleeding.entry.3" },
+      "next": "bleed_4"
+    },
+    {
+      "id": "bleed_4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.bleeding.entry.4" },      "endDialog": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    { "item": "minecraft:writable_book" },
+    { "item": "farmersrespite:coffee_beans" }
+  ]
+}

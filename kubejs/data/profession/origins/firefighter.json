@@ -1,0 +1,11 @@
+{
+  "icon": {
+    "item": "fallout:firefighter_axe"
+  },
+  "powers": [
+    "profession:firefighter/firefighter_attributes",
+    "profession:firefighter/starting_item"
+  ],
+  "impact": 0,
+  "order": 0
+}

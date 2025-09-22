@@ -1,0 +1,73 @@
+{
+  "id": "agirt_umvuth_trade",
+  "title": "乌姆纳塔交易后对话",
+  "description": "与乌姆纳塔酋长交易后的对话",
+  "start": "barako_3",
+  "entries": [
+    {
+      "id": "barako_3",
+      "speaker": { "translate": "dialog.agirt.speaker.barako" },
+      "text": [
+        { "translate": "dialog.agirt.barako.3" }
+      ],
+   "portraits": [],
+      "next": "barako_5"
+    },
+    {
+      "id": "barako_5",
+      "speaker": { "translate": "dialog.agirt.speaker.barako" },
+      "text": [
+        { "translate": "dialog.agirt.barako.5" }
+      ],
+      "next": "barako_6"
+    },
+    {
+      "id": "barako_6",
+      "speaker": { "translate": "dialog.agirt.speaker.barako" },
+      "text": [
+        { "translate": "dialog.agirt.barako.6" }
+      ],
+      "next": "barako_7"
+    },
+    {
+      "id": "barako_7",
+      "speaker": { "translate": "dialog.agirt.speaker.barako" },
+      "text": [
+        { "translate": "dialog.agirt.barako.7" }
+      ],
+      "next": "barako_8"
+    },
+    {
+      "id": "barako_8",
+      "speaker": { "translate": "dialog.agirt.speaker.barako" },
+      "text": [
+        { "translate": "dialog.agirt.barako.8" }
+      ],
+      "next": "barako_9"
+    },
+    {
+      "id": "barako_9",
+      "speaker": { "translate": "dialog.agirt.speaker.barako" },
+      "text": [
+        { "translate": "dialog.agirt.barako.9" }
+      ],
+      "next": "barako_10"
+    },
+    {
+      "id": "barako_10",
+      "speaker": { "translate": "dialog.agirt.speaker.barako" },
+      "text": [
+        { "translate": "dialog.agirt.barako.10" }
+      ],
+      "next": "barako_11"
+    },
+    {
+      "id": "barako_11",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt.barako.11" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

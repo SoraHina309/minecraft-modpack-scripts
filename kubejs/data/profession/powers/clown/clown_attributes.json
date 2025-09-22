@@ -1,0 +1,29 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "clown_health_penalty",
+      "attribute": "minecraft:generic.max_health",
+      "value": -8.0,
+      "operation": "addition"
+    },
+    {
+      "name": "clown_speed_bonus",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "operation": "multiply_base"
+    },     
+       {
+      "name": "clown_vert_recoi",
+      "attribute": "gunsmithlib:vert_recoil",
+      "value": 10.0,
+      "operation": "multiply_base"
+    },
+            {
+      "name": "clown_horz_recoil",
+      "attribute": "gunsmithlib:horz_recoil",
+      "value": 10.0,
+      "operation": "multiply_base"
+    }
+  ]
+}

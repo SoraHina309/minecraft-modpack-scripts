@@ -1,0 +1,39 @@
+{
+  "id": "agirt_champion8",
+  "title": "紫水晶祭坛",
+  "description": "利维坦指引玩家制作护卫容器",
+  "start": "champion8_1",
+  "entries": [
+    {
+      "id": "champion8_1",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion8.1" }
+      ],
+      "next": "champion8_2"
+    },
+    {
+      "id": "champion8_2",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion8.2" }
+      ],
+      "next": "champion8_3"
+    },
+    {
+      "id": "champion8_3",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion8.3" }
+      ],
+      "next": "champion8_4"
+    },
+    {
+      "id": "champion8_4",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion8.4" }
+      ],      "endDialog": true
+    }
+  ]
+}

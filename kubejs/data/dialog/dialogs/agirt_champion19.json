@@ -1,0 +1,122 @@
+{
+  "id": "agirt_champion19",
+  "title": "统御之杯",
+  "description": "Z先生送来“贺礼”，凋零风暴入侵；AGIRT下达紧急指令",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": { "translate": "dialog.agirt.speaker.championz" },
+      "text": [{ "translate": "dialog.agirt.champion19.1" }],
+      "next": "z_2"
+    },
+    {
+      "id": "z_2",
+      "speaker": { "translate": "dialog.agirt.speaker.championz" },
+      "text": [{ "translate": "dialog.agirt.champion19.2" }],
+      "next": "z_3"
+    },
+    {
+      "id": "z_3",
+      "speaker": { "translate": "dialog.agirt.speaker.championz" },
+      "text": [{ "translate": "dialog.agirt.champion19.3" }],
+      "next": "z_4"
+    },
+    {
+      "id": "z_4",
+      "speaker": { "translate": "dialog.agirt.speaker.championz" },
+      "text": [{ "translate": "dialog.agirt.champion19.4" }],
+      "next": "z_5"
+    },
+    {
+      "id": "z_5",
+      "speaker": { "translate": "dialog.agirt.speaker.championz" },
+      "text": [{ "translate": "dialog.agirt.champion19.5" }],
+      "next": "agirt_6"
+    },
+
+    {
+      "id": "agirt_6",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.6" }],
+      "next": "agirt_7"
+    },
+    {
+      "id": "agirt_7",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.7" }],
+      "next": "agirt_8"
+    },
+    {
+      "id": "agirt_8",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.8" }],
+      "next": "agirt_9"
+    },
+    {
+      "id": "agirt_9",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.9" }],
+      "next": "agirt_10"
+    },
+    {
+      "id": "agirt_10",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.10" }],
+      "next": "agirt_11"
+    },
+    {
+      "id": "agirt_11",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.11" }],
+      "next": "agirt_12"
+    },
+    {
+      "id": "agirt_12",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.12" }],
+      "next": "agirt_13"
+    },
+    {
+      "id": "agirt_13",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.13" }],
+      "next": "agirt_14"
+    },
+    {
+      "id": "agirt_14",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.14" }],
+      "next": "agirt_15"
+    },
+    {
+      "id": "agirt_15",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.15" }],
+      "next": "agirt_16"
+    },
+    {
+      "id": "agirt_16",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.16" }],
+      "next": "agirt_17"
+    },
+    {
+      "id": "agirt_17",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.17" }],
+      "next": "agirt_18"
+    },
+    {
+      "id": "agirt_18",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.18" }],
+      "next": "agirt_19"
+    },
+    {
+      "id": "agirt_19",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [{ "translate": "dialog.agirt.champion19.19" }],      "endDialog": true
+    }
+  ]
+}

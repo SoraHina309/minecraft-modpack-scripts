@@ -1,0 +1,58 @@
+{
+  "id": "champion_affix_info",
+  "title": "冠军词条说明",
+  "description": "由相位仪提供的敌人增强机制介绍",
+  "start": "entry_start",
+  "entries": [
+    {
+      "id": "entry_start",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.champion.entry.1" },
+        { "translate": "dialog.champion.entry.2" },
+        { "translate": "dialog.champion.entry.3" }
+      ],
+      "options": [
+        {
+          "text": { "translate": "dialog.champion.option.yes" },
+          "target": "entry_info_1"
+        },
+        {
+          "text": { "translate": "dialog.champion.option.no" },
+          "target": "entry_end"
+        }
+      ]
+    },
+
+    {
+      "id": "entry_info_1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.champion.entry.4" },
+      "next": "entry_info_2"
+    },
+    {
+      "id": "entry_info_2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.champion.entry.5" },
+      "next": "entry_info_3"
+    },
+    {
+      "id": "entry_info_3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.champion.entry.6" },
+      "next": "entry_info_4"
+    },
+    {
+      "id": "entry_info_4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.champion.entry.7" },
+      "next": "entry_end"
+    },
+
+    {
+      "id": "entry_end",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.champion.entry.end" },      "endDialog": true
+    }
+  ]
+}

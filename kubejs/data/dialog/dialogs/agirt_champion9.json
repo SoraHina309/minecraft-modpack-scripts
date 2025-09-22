@@ -1,0 +1,36 @@
+{
+  "id": "agirt_champion9",
+  "title": "未完成容器充能",
+  "description": "利维坦提议帮助玩家处理守卫",
+  "start": "champion9_1",
+  "entries": [
+    {
+      "id": "champion9_1",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion9.1" }
+      ],
+      "next": "champion9_2"
+    },
+    {
+      "id": "champion9_2",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion9.2" }
+      ],
+      "options": [
+        {
+          "text": { "translate": "dialog.agirt.champion9.option.1" },
+          "target": "champion9_3"
+        }
+      ]
+    },
+    {
+      "id": "champion9_3",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion9.3" }
+      ],      "endDialog": true
+    }
+  ]
+}

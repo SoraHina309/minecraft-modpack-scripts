@@ -1,0 +1,147 @@
+{
+  "id": "agirt_finale_eden_comes",
+  "title": "巨兽已殁",
+  "description": "凋零风暴被乐园终结，关于下界之星的抉择",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.1"
+        }
+      ],
+      "next": "ask_1"
+    },
+    {
+      "id": "ask_1",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.2"
+        }
+      ],
+      "next": "ask_2"
+    },
+    {
+      "id": "ask_2",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.3"
+        }
+      ],
+      "options": [
+        {
+          "text": {
+            "translate": "dialog.agirt.finale_eden_comes.option.1"
+          },
+          "target": "resp_destroy"
+        },
+        {
+          "text": {
+            "translate": "dialog.agirt.finale_eden_comes.option.2"
+          },
+          "target": "resp_keep"
+        },
+                {
+          "text": {
+            "translate": "dialog.agirt.finale_eden_comes.option.3"
+          },
+          "target": "bad_news"
+        }
+      ]
+    },
+    {
+      "id": "resp_destroy",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.4"
+        }
+      ],
+      "next": "bad_news"
+    },
+    {
+      "id": "resp_keep",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.5"
+        }
+      ],
+      "next": "bad_news"
+    },
+    {
+      "id": "bad_news",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.6"
+        }
+      ],
+      "next": "bad_news_2"
+    },
+    {
+      "id": "bad_news_2",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.7"
+        }
+      ],
+      "next": "device_comment"
+    },
+    {
+      "id": "device_comment",
+      "speaker": {
+        "translate": "dialog.resonance.speaker.unknown"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.8"
+        }
+      ],
+      "next": "device_comment1"
+    },
+    {
+      "id": "device_comment1",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.9"
+        }
+      ],
+      "next": "device_commen2"
+    },
+    {
+      "id": "device_commen2",
+      "speaker": {
+        "translate": "dialog.speaker.eden"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.finale_eden_comes.10"
+        }
+      ],
+      "endDialog": true
+    }
+  ]
+}

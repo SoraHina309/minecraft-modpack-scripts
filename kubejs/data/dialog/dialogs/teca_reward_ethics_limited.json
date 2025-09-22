@@ -1,0 +1,33 @@
+{
+  "id": "teca_reward_ethics_limited",
+  "title": "争议性研究结算",
+  "description": "调度员表示感谢，但相位仪有不同看法",
+  "start": "entry1",
+  "entries": [
+    {
+      "id": "entry1",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.ethics_reward.entry.1" },
+   "portraits": [],
+      "next": "entry2"
+    },
+    {
+      "id": "entry2",
+      "speaker": { "translate": "dialog.teca_research.speaker.dispatcher" },
+      "text": { "translate": "dialog.ethics_reward.entry.2" },
+      "next": "entry3"
+    },
+    {
+      "id": "entry3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.ethics_reward.entry.3" },
+      "next": "entry4"
+    },
+    {
+      "id": "entry4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.ethics_reward.entry.4" },
+      "endDialog": true
+    }
+  ]
+}

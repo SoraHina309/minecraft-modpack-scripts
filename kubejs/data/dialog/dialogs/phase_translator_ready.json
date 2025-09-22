@@ -1,0 +1,33 @@
+{
+  "id": "phase_translator_ready",
+  "title": "相位通讯启动",
+  "description": "你可以开始与世界交流，并寻找干扰源了",
+  "start": "step1",
+  "entries": [
+    {
+      "id": "step1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips", "bold": true },
+      "text": [{ "translate": "dialog.phase_translator_ready.entry.1" }],
+   "portraits": [],
+      "next": "step2"
+    },
+    {
+      "id": "step2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips", "bold": true },
+      "text": [{ "translate": "dialog.phase_translator_ready.entry.2" }],
+      "next": "step3"
+    },
+    {
+      "id": "step3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips", "bold": true },
+      "text": [{ "translate": "dialog.phase_translator_ready.entry.3" }],
+      "next": "step4"
+    },
+    {
+      "id": "step4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips", "bold": true },
+      "text": [{ "translate": "dialog.phase_translator_ready.entry.4" }],
+      "endDialog": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "teca_steam_stage",
+  "title": "TECA - 蒸汽时代任务",
+  "description": "多相仪提示当前科技阶段任务内容",
+  "start": "s1",
+  "entries": [
+    {
+      "id": "s1",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.steam.1" },
+      "next": "s2"
+    },
+    {
+      "id": "s2",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.steam.2" },
+      "next": "s3"
+    },
+    {
+      "id": "s3",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.steam.3" },
+      "next": "s4"
+    },
+    {
+      "id": "s4",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.steam.4" },
+      "next": "s5"
+    },
+    {
+      "id": "s5",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.steam.5" },
+      "next": "s6"
+    },
+    {
+      "id": "s6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": { "translate": "dialog.teca.steam.6" },      "endDialog": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "agirt_earthrend_fail",
+  "title": "地卜师的死不瞑目",
+  "description": "击杀通臂大师后的失败对话",
+  "start": "intro_1",
+  "entries": [
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.agirt.speaker.earthrend" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.3.1" }
+      ],
+   "portraits": [],
+      "next": "intro_2"
+    },
+    {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.3.2" }
+      ],
+      "next": "intro_3"
+    },
+    {
+      "id": "intro_3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.earthrend.3.3" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

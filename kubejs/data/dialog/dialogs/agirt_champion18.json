@@ -1,0 +1,47 @@
+{
+  "id": "agirt_champion18",
+  "title": "利维坦之怒",
+  "description": "利维坦察觉到玩家的计划并发出挑衅",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion18.1" }
+      ],
+      "next": "step2"
+    },
+    {
+      "id": "step2",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion18.2" }
+      ],
+      "next": "step3"
+    },
+    {
+      "id": "step3",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion18.3" }
+      ],
+      "next": "step4"
+    },
+    {
+      "id": "step4",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion18.4" }
+      ],
+      "next": "step5"
+    },
+    {
+      "id": "step5",
+      "speaker": { "translate": "dialog.agirt.speaker.leviathan1" },
+      "text": [
+        { "translate": "dialog.agirt.champion18.5" }
+      ],      "endDialog": true
+    }
+  ]
+}

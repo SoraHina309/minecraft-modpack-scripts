@@ -1,0 +1,74 @@
+{
+  "id": "agirt_entryz2",
+  "title": "Z先生的委托",
+  "description": "Z先生的特别任务委托",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": { "translate": "dialog.villager_encounter.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.entryz2.1" }
+      ],
+   "portraits": [],
+      "options": [
+        {
+          "text": { "translate": "dialog.agirt.optionz2.1" },
+          "target": "intro_1"
+        },
+        {
+          "text": { "translate": "dialog.agirt.optionz2.2" },
+          "target": "intro_1"
+        }
+      ]
+    },
+    {
+      "id": "intro_1",
+      "speaker": { "translate": "dialog.agirt.speaker.z" },
+      "text": [
+        { "translate": "dialog.agirt.entryz2.2" }
+      ],
+      "next": "intro_2"
+    },
+    {
+      "id": "intro_2",
+      "speaker": { "translate": "dialog.agirt.speaker.z" },
+      "text": [
+        { "translate": "dialog.agirt.entryz2.3" }
+      ],
+      "next": "intro_3"
+    },
+    {
+      "id": "intro_3",
+      "speaker": { "translate": "dialog.agirt.speaker.z" },
+      "text": [
+        { "translate": "dialog.agirt.entryz2.4" }
+      ],
+      "next": "intro_4"
+    },
+    {
+      "id": "intro_4",
+      "speaker": { "translate": "dialog.agirt.speaker.z" },
+      "text": [
+        { "translate": "dialog.agirt.entryz2.5" }
+      ],
+      "next": "intro_5"
+    },
+    {
+      "id": "intro_5",
+      "speaker": { "translate": "dialog.agirt.speaker.z" },
+      "text": [
+        { "translate": "dialog.agirt.entryz2.6" }
+      ],
+      "next": "intro_6"
+    },
+    {
+      "id": "intro_6",
+      "speaker": { "translate": "dialog.startup_intro.speaker.tips" },
+      "text": [
+        { "translate": "dialog.agirt.entryz2.7" }
+      ],
+      "endDialog": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "agirt_champion14",
+  "title": "寻找古代文献",
+  "description": "总部指派前往幽匿古城获取古代文献",
+  "start": "champion14_1",
+  "entries": [
+    {
+      "id": "champion14_1",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion14.1" }
+      ],
+      "next": "champion14_2"
+    },
+    {
+      "id": "champion14_2",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion14.2" }
+      ],
+      "next": "champion14_3"
+    },
+    {
+      "id": "champion14_3",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion14.3" }
+      ],
+      "next": "champion14_4"
+    },
+    {
+      "id": "champion14_4",
+      "speaker": { "translate": "dialog.resonance.speaker.unknown" },
+      "text": [
+        { "translate": "dialog.agirt.champion14.4" }
+      ],      "endDialog": true
+    }
+  ]
+}

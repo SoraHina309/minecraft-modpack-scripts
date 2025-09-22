@@ -1,0 +1,101 @@
+{
+  "id": "agirt_champion3",
+  "title": "灵魂锻造厂事件",
+  "description": "在锻造厂触发的剧情",
+  "start": "pig_1",
+  "entries": [
+    {
+      "id": "pig_1",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+   "portraits": [],
+      "text": [
+        {
+          "translate": "dialog.agirt.pig.1"
+        }
+      ],
+      "options": [
+        {
+          "text": {
+            "translate": "dialog.agirt.pig.option.1"
+          },
+          "target": "pig_2"
+        },
+        {
+          "text": {
+            "translate": "dialog.agirt.pig.option.2"
+          },
+          "target": "pig_2"
+        }
+      ]
+    },
+    {
+      "id": "pig_2",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.pig.2"
+        }
+      ],
+      "next": "alarm"
+    },
+    {
+      "id": "alarm",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.alarm"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.pig.3"
+        }
+      ],
+      "next": "pig_4"
+    },
+    {
+      "id": "pig_4",
+      "speaker": {
+        "translate": "dialog.agirt.speaker.pig"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.pig.4"
+        }
+      ],
+      "next": "pig_5"
+    },
+    {
+      "id": "pig_5",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.pig.5"
+        }
+      ],
+      "command": [
+        "/puresuffering add fixed primary default puresuffering:porkinator max"
+      ],
+      "next": "pig_6"
+    },
+    {
+      "id": "pig_6",
+      "speaker": {
+        "translate": "dialog.startup_intro.speaker.tips"
+      },
+      "text": [
+        {
+          "translate": "dialog.agirt.pig.6"
+        }
+      ],
+      "command": [
+        "/time add 1d",
+                "/effect clear @a minecraft:resistance",
+        "/effect clear @a alexsmobs:knockback_resistance"
+      ],      "endDialog": true
+    }
+  ]
+}

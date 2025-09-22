@@ -1,0 +1,23 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+            {
+      "name": "firefighter_speed_bonus",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.005,
+      "operation": "multiply_base"
+    },
+    {
+      "name": "firefighter_vert_recoi",
+      "attribute": "gunsmithlib:vert_recoil",
+      "value": -0.15,
+      "operation": "multiply_base"
+    },
+        {
+      "name": "firefighter_horz_recoil",
+      "attribute": "gunsmithlib:horz_recoil",
+      "value": 0.45,
+      "operation": "multiply_base"
+    }
+  ]
+}

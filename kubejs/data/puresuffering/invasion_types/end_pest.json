@@ -1,0 +1,162 @@
+{
+  "Dimensions": [
+    "minecraft:the_end"
+  ],
+  "InvasionPriority": "SECONDARY_ONLY",
+  "InvasionTime": "NIGHT",
+  "Rarity": 95,
+  "SeverityInfo": [
+    {
+      "MobCapPercentage": 0.25, 
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:watchling", 
+          "MaxCount": 4,  
+          "MinCount": 1,
+          "Weight": 4    
+        },
+        {
+          "EntityType": "minecraft:endermite",  
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "dungeonsmobs:blastling",  
+          "MaxCount": 1,
+          "MinCount": 0,  
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:snareling", 
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 30
+    },
+    {
+      "MobCapPercentage": 0.5,  
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:watchling",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:endermite",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "dungeonsmobs:blastling",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:snareling",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 24
+    },
+    {
+      "MobCapPercentage": 0.75,  
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:watchling",
+          "MaxCount": 6,
+          "MinCount": 3,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:endermite",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "dungeonsmobs:blastling",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:snareling",
+          "MaxCount": 1,
+          "MinCount": 0,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 18
+    },
+    {
+      "MobCapPercentage": 1.0,  
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:watchling",
+          "MaxCount": 8,
+          "MinCount": 4,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:endermite",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 1
+        },
+        {
+          "EntityType": "dungeonsmobs:blastling",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:snareling",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 12
+    },
+    {
+      "MobCapPercentage": 1.25, 
+      "MobSpawnList": [
+        {
+          "EntityType": "dungeonsmobs:watchling",
+          "MaxCount": 10,
+          "MinCount": 4,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:endermite",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 1
+        },
+        {
+          "EntityType": "dungeonsmobs:blastling",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "dungeonsmobs:snareling",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 6
+    }
+  ],
+  "Tier": 1,
+  "OverridesExisting": true
+}

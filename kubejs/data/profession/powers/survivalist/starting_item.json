@@ -1,0 +1,14 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "fallout:copper_longknife"
+    },
+    {
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    {
+      "item": "legendarysurvivaloverhaul:canteen"
+    }
+  ]
+}
